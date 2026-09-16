@@ -2,7 +2,7 @@
 
 A pricing page you can check against reality: what **image2.5** costs per image on the relayed route, how that compares with token billing on the official route, and the arithmetic for 100, 10,000 and 1,000,000 images.
 
-**Attributed entry points:** [Open GPT Image 2.5 on APIMart](https://apimart.ai/model/gpt-image-2-5?utm_source=github&utm_medium=repository&utm_campaign=image2.5-api-github-2026&utm_content=hub) · [Current pricing](https://apimart.ai/pricing?utm_source=github&utm_medium=repository&utm_campaign=image2.5-api-github-2026&utm_content=pricing) · [Endpoint documentation](https://docs.apimart.ai/en/api-reference/images/gpt-image-2.5-ext/generation?utm_source=github&utm_medium=repository&utm_campaign=image2.5-api-github-2026&utm_content=docs)
+**Attributed entry points:** [Open GPT Image 2.5 on APIMart](https://go.apimart.ai/k-b1b768) · [Current pricing](https://go.apimart.ai/k-c9d4c5) · [Get an API key](https://go.apimart.ai/k-9cb7f0)
 
 ## Contents
 
@@ -143,7 +143,7 @@ curl --request POST --url https://api.apimart.ai/v1/images/generations \
   --data '{"model":"gpt-image-2.5-sunburst","prompt":"Preserve the product label, replace the background with soft off-white, add a natural cast shadow","size":"1:1","resolution":"1k","quality":"high","n":1}'
 ```
 
-Full field reference: [official route docs](https://docs.apimart.ai/en/api-reference/images/gpt-image-2.5-ext/generation?utm_source=github&utm_medium=repository&utm_campaign=image2.5-api-github-2026&utm_content=docs) and the same attributed entry point for the ext route.
+Full field reference: [official route docs](https://docs.apimart.ai/en/api-reference/images/gpt-image-2.5/generation) and [ext route docs](https://docs.apimart.ai/en/api-reference/images/gpt-image-2.5-ext/generation). Get a key at [apimart.ai/keys](https://go.apimart.ai/k-9cb7f0).
 
 ## Request and response reference (ext route)
 
@@ -191,7 +191,7 @@ commit a budget.
 
 **Is $0.0085 per image the real image2.5 price?**
 
-It is the observed 1K unit price on the `gpt-image-2.5-ext` route at the time of writing (2026-09-16), read back from the completed task's own `cost` field. Prices change; the [pricing page](https://apimart.ai/pricing?utm_source=github&utm_medium=repository&utm_campaign=image2.5-api-github-2026&utm_content=pricing) is the authority.
+It is the observed 1K unit price on the `gpt-image-2.5-ext` route at the time of writing (2026-09-16), read back from the completed task's own `cost` field. Prices change; the [pricing page](https://go.apimart.ai/k-c9d4c5) is the authority.
 
 **Is the cheapest route the same model as the official one?**
 
@@ -231,11 +231,11 @@ Every outbound link in this repository points at APIMart through a short link, s
 
 | Purpose | Attributed link | Target |
 | --- | --- | --- |
-| Open GPT Image 2.5 on APIMart | <https://apimart.ai/model/gpt-image-2-5?utm_source=github&utm_medium=repository&utm_campaign=image2.5-api-github-2026&utm_content=hub> | `apimart.ai/model/gpt-image-2-5` |
-| Current APIMart pricing | <https://apimart.ai/pricing?utm_source=github&utm_medium=repository&utm_campaign=image2.5-api-github-2026&utm_content=pricing> | `apimart.ai/pricing` |
-| Endpoint documentation (ext route) | <https://docs.apimart.ai/en/api-reference/images/gpt-image-2.5-ext/generation?utm_source=github&utm_medium=repository&utm_campaign=image2.5-api-github-2026&utm_content=docs> | `docs.apimart.ai` |
+| Open GPT Image 2.5 on APIMart | <https://go.apimart.ai/k-b1b768> | `apimart.ai/model/gpt-image-2-5` |
+| Current APIMart pricing | <https://go.apimart.ai/k-c9d4c5> | `apimart.ai/pricing` |
+| Get an API key on APIMart | <https://go.apimart.ai/k-9cb7f0> | `apimart.ai/keys` |
 
-- [ ] Attribution target: `go.apimart.ai` short links above (302 with `utm_source=kol_sponsor&utm_medium=sponsor`).
+- [ ] Attribution target: the three `go.apimart.ai` short links above (302 with `utm_source=kol_sponsor&utm_medium=sponsor`); the endpoint docs at `docs.apimart.ai` are referenced without a short link because the link service only accepts the `apimart.ai` domain.
 - [ ] Re-check the price on the pricing page before a production run: promotional routing can change.
 
 ## Disclosure

@@ -4,24 +4,24 @@ from __future__ import annotations
 import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-ALLOWED_RAW = re.compile(r"https://(docs\.apimart\.ai|apimart\.ai)/[^)\s]*")
+RAW_APIMART = re.compile(r"https://(?:[a-z0-9-]+\.)?apimart\.ai/[^\s)\]<>]*")
 SHORT = re.compile(r"https://go\.apimart\.ai/k-[0-9a-f]+")
-SKIP_FILES = {"tools/check_links.py", ".github/workflows/validate.yml"}
+API_HOST = re.compile(r"https://api\.apimart\.ai/")
+DOCS_HOST = re.compile(r"https://docs\.apimart\.ai/")
 
 problems: list[str] = []
 for path in sorted(ROOT.rglob("*")):
     if not path.is_file() or path.suffix not in {".md", ".py", ".sh", ".mjs", ".json"}:
         continue
-    if path.name in SKIP_FILES or ".git" in path.parts:
+    if path.name in {"check_links.py", "repo.json"} or ".git" in path.parts:
         continue
-    text = path.read_text(encoding="utf-8", errors="ignore")
-    for target in ALLOWED_RAW.findall(text):
-        for match in re.finditer(re.escape(target), text):
-            line_start = text.rfind("\n", 0, match.start()) + 1
-            line = text[line_start:text.find("\n", match.start())]
-            if SHORT.search(line) or "docs.apimart.ai" in line or "api.apimart.ai" in line:
-                continue
-            problems.append(f"{path.relative_to(ROOT)}: unattributed apimart link -> {target}")
+    for lineno, line in enumerate(path.read_text(encoding="utf-8", errors="ignore").splitlines(), 1):
+        if SHORT.search(line):
+            continue
+        for url in RAW_APIMART.findall(line):
+            if API_HOST.match(url) or DOCS_HOST.match(url):
+                continue          # API endpoint and documentation host are not attributed
+            problems.append(f"{path.relative_to(ROOT)}:{lineno} unattributed apimart link -> {url}")
 
 data = ROOT / "data/prompts.json"
 if data.exists():
