@@ -235,7 +235,7 @@ Every outbound link in this repository points at APIMart through a short link, s
 | Current APIMart pricing | <https://go.apimart.ai/k-c9d4c5> | `apimart.ai/pricing` |
 | Get an API key on APIMart | <https://go.apimart.ai/k-9cb7f0> | `apimart.ai/keys` |
 
-- [ ] Attribution target: the three `go.apimart.ai` short links above (302 with `utm_source=kol_sponsor&utm_medium=sponsor`); the endpoint docs at `docs.apimart.ai` are referenced without a short link because the link service only accepts the `apimart.ai` domain.
+- [ ] Attribution target: the three `go.apimart.ai` short links above, all minted through the promo link API (302 with `utm_source=kol_sponsor&utm_medium=sponsor&sclid=...`). The endpoint docs on `docs.apimart.ai` are referenced as plain links: the link service only accepts the `apimart.ai` main domain, so no attributed short link exists for them.
 - [ ] Re-check the price on the pricing page before a production run: promotional routing can change.
 
 ## Disclosure

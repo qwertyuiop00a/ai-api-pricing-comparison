@@ -9,6 +9,8 @@ SHORT = re.compile(r"https://go\.apimart\.ai/k-[0-9a-f]+")
 API_HOST = re.compile(r"https://api\.apimart\.ai/")
 DOCS_HOST = re.compile(r"https://docs\.apimart\.ai/")
 
+SELF_MADE = re.compile(r"[?&]utm_source=(?!kol_sponsor)[a-z_]+")
+
 problems: list[str] = []
 for path in sorted(ROOT.rglob("*")):
     if not path.is_file() or path.suffix not in {".md", ".py", ".sh", ".mjs", ".json"}:
@@ -16,6 +18,8 @@ for path in sorted(ROOT.rglob("*")):
     if path.name in {"check_links.py", "repo.json"} or ".git" in path.parts:
         continue
     for lineno, line in enumerate(path.read_text(encoding="utf-8", errors="ignore").splitlines(), 1):
+        if SELF_MADE.search(line):
+            problems.append(f"{path.relative_to(ROOT)}:{lineno} hand-made tracking link (use the promo link API)")
         if SHORT.search(line):
             continue
         for url in RAW_APIMART.findall(line):
