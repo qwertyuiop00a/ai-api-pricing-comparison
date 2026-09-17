@@ -1,0 +1,7215 @@
+{
+  "source": "https://apimart.ai/en/pricing",
+  "method": "React Server Component payload of the public pricing page (no API key required)",
+  "extracted_at": "2026-09-17T07:40:44Z",
+  "model_count": 303,
+  "specification_counts": {
+    "image": 41,
+    "second": 48,
+    "times": 6,
+    "token": 208
+  },
+  "models": [
+    {
+      "id": "dall-e-3",
+      "name": "DALL-E 3",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.04,
+          "effective": 0.032
+        }
+      }
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_call",
+      "prices": {
+        "default": {
+          "list": 0.0563,
+          "effective": 0.04504
+        },
+        "blend": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "blend-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "blend-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "describe": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "describe-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "describe-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "edits": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "edits-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "edits-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "high_variation": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "high_variation-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "high_variation-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "imagine": {
+          "list": 0.0563,
+          "effective": 0.04504
+        },
+        "imagine-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "imagine-niji6": {
+          "list": 0.0563,
+          "effective": 0.04504
+        },
+        "imagine-niji6-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "imagine-niji6-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "imagine-niji7": {
+          "list": 0.0563,
+          "effective": 0.04504
+        },
+        "imagine-niji7-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "imagine-niji7-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "imagine-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "imagine-v5.1": {
+          "list": 0.0563,
+          "effective": 0.04504
+        },
+        "imagine-v5.1-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "imagine-v5.1-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "imagine-v5.2": {
+          "list": 0.0563,
+          "effective": 0.04504
+        },
+        "imagine-v5.2-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "imagine-v5.2-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "imagine-v6.1": {
+          "list": 0.0563,
+          "effective": 0.04504
+        },
+        "imagine-v6.1-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "imagine-v6.1-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "imagine-v7": {
+          "list": 0.0563,
+          "effective": 0.04504
+        },
+        "imagine-v7-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "imagine-v7-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "imagine-v8.1": {
+          "list": 0.0563,
+          "effective": 0.04504
+        },
+        "imagine-v8.1-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "imagine-v8.1-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "imagine-v8.2": {
+          "list": 0.0563,
+          "effective": 0.04504
+        },
+        "imagine-v8.2-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "imagine-v8.2-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "inpaint": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "inpaint-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "inpaint-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "low_variation": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "low_variation-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "low_variation-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "modal": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "modal-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "modal-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "pan": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "pan-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "pan-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "remix_strong": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "remix_strong-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "remix_strong-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "remix_subtle": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "remix_subtle-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "remix_subtle-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "reroll": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "reroll-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "reroll-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "shorten": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "shorten-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "shorten-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "upscale": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "upscale-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "upscale-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "variation": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "variation-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "variation-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "video": {
+          "list": 0.25,
+          "effective": 0.2
+        },
+        "video-720p": {
+          "list": 0.5,
+          "effective": 0.4
+        },
+        "zoom": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "zoom-fast": {
+          "list": 0.0688,
+          "effective": 0.05504
+        },
+        "zoom-turbo": {
+          "list": 0.125,
+          "effective": 0.1
+        }
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-image-preview",
+      "name": "Nano Banana",
+      "alias": "nano-banana-ext",
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.015625,
+          "effective": 0.0125
+        }
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-image-preview",
+      "name": "Nano Banana 2",
+      "alias": "nano-banana-2-ext",
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.01875,
+          "effective": 0.015
+        },
+        "0.5K": {
+          "list": 0.01875,
+          "effective": 0.015
+        },
+        "1K": {
+          "list": 0.01875,
+          "effective": 0.015
+        },
+        "2K": {
+          "list": 0.025,
+          "effective": 0.02
+        },
+        "4K": {
+          "list": 0.03125,
+          "effective": 0.025
+        }
+      }
+    },
+    {
+      "id": "gemini-3-pro-image-preview",
+      "name": "Nano Banana Pro",
+      "alias": "nano-banana-pro-ext",
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.0375,
+          "effective": 0.03
+        },
+        "4K": {
+          "list": 0.05,
+          "effective": 0.04
+        }
+      }
+    },
+    {
+      "id": "dall-e-2",
+      "name": "dall-e-2",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.02,
+          "effective": 0.016
+        }
+      }
+    },
+    {
+      "id": "flux-2-flex",
+      "name": "flux-2",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "1MP": {
+          "list": 0.05,
+          "effective": 0.04
+        },
+        "2MP": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "3MP": {
+          "list": 0.15,
+          "effective": 0.12
+        },
+        "4MP": {
+          "list": 0.2,
+          "effective": 0.16
+        }
+      }
+    },
+    {
+      "id": "flux-2-max",
+      "name": "flux-2-max",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "1MP": {
+          "list": 0.07,
+          "effective": 0.056
+        },
+        "2MP": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "3MP": {
+          "list": 0.13,
+          "effective": 0.104
+        },
+        "4MP": {
+          "list": 0.16,
+          "effective": 0.128
+        }
+      }
+    },
+    {
+      "id": "flux-2-pro",
+      "name": "flux-2-pro",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "1MP": {
+          "list": 0.03,
+          "effective": 0.024
+        },
+        "2MP": {
+          "list": 0.045,
+          "effective": 0.036
+        },
+        "3MP": {
+          "list": 0.06,
+          "effective": 0.048
+        },
+        "4MP": {
+          "list": 0.075,
+          "effective": 0.06
+        }
+      }
+    },
+    {
+      "id": "flux-kontext-max",
+      "name": "flux-kontext",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.08,
+          "effective": 0.064
+        }
+      }
+    },
+    {
+      "id": "flux-kontext-pro",
+      "name": "flux-kontext-pro",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.04,
+          "effective": 0.032
+        }
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-image-preview-official",
+      "name": "gemini-2.5-flash-image-preview-official",
+      "alias": "nano-banana",
+      "specification": "image",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "text_input": 0.3,
+          "cached_text_input": 0,
+          "image_input": 0.3,
+          "cached_image_input": 0,
+          "text_output": 2.5,
+          "image_output": 30
+        },
+        "effective": {
+          "text_input": 0.24,
+          "cached_text_input": 0,
+          "image_input": 0.24,
+          "cached_image_input": 0,
+          "text_output": 2,
+          "image_output": 24
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gemini-3-pro-image-preview-official",
+      "name": "gemini-3-pro-image-preview-official",
+      "alias": "nano-banana-pro",
+      "specification": "image",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "text_input": 2,
+          "cached_text_input": 0,
+          "image_input": 2,
+          "cached_image_input": 0,
+          "text_output": 12,
+          "image_output": 120
+        },
+        "effective": {
+          "text_input": 1.6,
+          "cached_text_input": 0,
+          "image_input": 1.6,
+          "cached_image_input": 0,
+          "text_output": 9.6,
+          "image_output": 96
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gemini-3.1-flash-image-preview-official",
+      "name": "gemini-3.1-flash-image-preview-official",
+      "alias": "nano-banana-2",
+      "specification": "image",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "text_input": 0.5,
+          "cached_text_input": 0,
+          "image_input": 0.5,
+          "cached_image_input": 0,
+          "text_output": 3,
+          "image_output": 60
+        },
+        "effective": {
+          "text_input": 0.4,
+          "cached_text_input": 0,
+          "image_input": 0.4,
+          "cached_image_input": 0,
+          "text_output": 2.4,
+          "image_output": 48
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gemini-3.1-flash-lite-image",
+      "name": "gemini-3.1-flash-lite-image",
+      "alias": "nano-banana-2-lite",
+      "specification": "image",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "text_input": 0.25,
+          "cached_text_input": 0,
+          "image_input": 0.25,
+          "cached_image_input": 0,
+          "text_output": 1.5,
+          "image_output": 30
+        },
+        "effective": {
+          "text_input": 0.2,
+          "cached_text_input": 0,
+          "image_input": 0.2,
+          "cached_image_input": 0,
+          "text_output": 1.2,
+          "image_output": 24
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gemini-3.1-flash-lite-image-ext",
+      "name": "gemini-3.1-flash-lite-image-ext",
+      "alias": "nano-banana-2-lite-ext",
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.015625,
+          "effective": 0.0125
+        }
+      }
+    },
+    {
+      "id": "gpt-image-1",
+      "name": "gpt-image-1",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "text_input": 5,
+          "cached_text_input": 1.25,
+          "image_input": 10,
+          "cached_image_input": 2.5,
+          "image_output": 40
+        },
+        "effective": {
+          "text_input": 4,
+          "cached_text_input": 1,
+          "image_input": 8,
+          "cached_image_input": 2,
+          "image_output": 32
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-image-1-official",
+      "name": "gpt-image-1-official",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "text_input": 5,
+          "cached_text_input": 1.25,
+          "image_input": 10,
+          "cached_image_input": 2.5,
+          "image_output": 40
+        },
+        "effective": {
+          "text_input": 4,
+          "cached_text_input": 1,
+          "image_input": 8,
+          "cached_image_input": 2,
+          "image_output": 32
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-image-1.5-official",
+      "name": "gpt-image-1.5-official",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "text_input": 5,
+          "cached_text_input": 1.25,
+          "image_input": 8,
+          "cached_image_input": 2,
+          "text_output": 10,
+          "image_output": 32
+        },
+        "effective": {
+          "text_input": 4,
+          "cached_text_input": 1,
+          "image_input": 6.4,
+          "cached_image_input": 1.6,
+          "text_output": 8,
+          "image_output": 25.6
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-image-2",
+      "name": "gpt-image-2",
+      "alias": "gpt-image-2-ext",
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.010625,
+          "effective": 0.0085
+        },
+        "1K": {
+          "list": 0.010625,
+          "effective": 0.0085
+        },
+        "2K": {
+          "list": 0.0175,
+          "effective": 0.014
+        },
+        "4K": {
+          "list": 0.02625,
+          "effective": 0.021
+        }
+      }
+    },
+    {
+      "id": "gpt-image-2-official",
+      "name": "gpt-image-2-official",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "text_input": 5,
+          "cached_text_input": 1.25,
+          "image_input": 8,
+          "cached_image_input": 2,
+          "image_output": 30
+        },
+        "effective": {
+          "text_input": 4,
+          "cached_text_input": 1,
+          "image_input": 6.4,
+          "cached_image_input": 1.6,
+          "image_output": 24
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "gpt-image-2.5-flare",
+      "name": "gpt-image-2.5",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "text_input": 5,
+          "cached_text_input": 1.25,
+          "image_input": 8,
+          "cached_image_input": 2,
+          "image_output": 30
+        },
+        "effective": {
+          "text_input": 4,
+          "cached_text_input": 1,
+          "image_input": 6.4,
+          "cached_image_input": 1.6,
+          "image_output": 24
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "gpt-image-2.5-ext",
+      "name": "gpt-image-2.5-ext",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "flare@1K": {
+          "list": 0.010625,
+          "effective": 0.0085
+        },
+        "flare@2K": {
+          "list": 0.0175,
+          "effective": 0.014
+        },
+        "flare@4K": {
+          "list": 0.02625,
+          "effective": 0.021
+        },
+        "sunburst@1K": {
+          "list": 0.010625,
+          "effective": 0.0085
+        },
+        "sunburst@2K": {
+          "list": 0.0175,
+          "effective": 0.014
+        },
+        "sunburst@4K": {
+          "list": 0.02625,
+          "effective": 0.021
+        }
+      }
+    },
+    {
+      "id": "gpt-image-2.5-sunburst",
+      "name": "gpt-image-2.5-sunburst",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "text_input": 5,
+          "cached_text_input": 1.25,
+          "image_input": 8,
+          "cached_image_input": 2,
+          "image_output": 30
+        },
+        "effective": {
+          "text_input": 4,
+          "cached_text_input": 1,
+          "image_input": 6.4,
+          "cached_image_input": 1.6,
+          "image_output": 24
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "grok-imagine-1.5-apimart",
+      "name": "grok-imagine-1.5-apimart",
+      "alias": "grok-imagine-1.5-ext",
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.01875,
+          "effective": 0.015
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-1.5-edit-apimart",
+      "name": "grok-imagine-1.5-extï¼grok-imagine-1.5-apimartï¼",
+      "alias": "grok-imagine-1.5-edit-ext",
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.01875,
+          "effective": 0.015
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-2.0-ext",
+      "name": "grok-imagine-2.0-ext",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.01875,
+          "effective": 0.015
+        },
+        "region-edit": {
+          "list": 0.01875,
+          "effective": 0.015
+        },
+        "upload-image": {
+          "list": 0,
+          "effective": 0
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-image",
+      "name": "grok-imagine-image",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "1K": {
+          "list": 0.02,
+          "effective": 0.016
+        },
+        "2K": {
+          "list": 0.02,
+          "effective": 0.016
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-image-2.0",
+      "name": "grok-imagine-image-2.0",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "1K@low": {
+          "list": 0.04,
+          "effective": 0.032
+        },
+        "1K@medium": {
+          "list": 0.06,
+          "effective": 0.048
+        },
+        "2K@low": {
+          "list": 0.06,
+          "effective": 0.048
+        },
+        "2K@medium": {
+          "list": 0.08,
+          "effective": 0.064
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-image-quality",
+      "name": "grok-imagine-image-quality",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "1K": {
+          "list": 0.05,
+          "effective": 0.04
+        },
+        "2K": {
+          "list": 0.07,
+          "effective": 0.056
+        }
+      }
+    },
+    {
+      "id": "imagen-4.0-apimart",
+      "name": "imagen-4.0-apimart",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.05,
+          "effective": 0.04
+        }
+      }
+    },
+    {
+      "id": "qwen-image-2.0",
+      "name": "qwen-image-2.0",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.025,
+          "effective": 0.02
+        }
+      }
+    },
+    {
+      "id": "qwen-image-2.0-pro",
+      "name": "qwen-image-2.0-pro",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.0625,
+          "effective": 0.05
+        }
+      }
+    },
+    {
+      "id": "qwen-image-3.0",
+      "name": "qwen-image-3.0",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.025714,
+          "effective": 0.0205712
+        },
+        "1K": {
+          "list": 0.025714,
+          "effective": 0.0205712
+        },
+        "2K": {
+          "list": 0.025714,
+          "effective": 0.0205712
+        }
+      }
+    },
+    {
+      "id": "qwen-image-3.0-pro",
+      "name": "qwen-image-3.0-pro",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.035714,
+          "effective": 0.0285712
+        },
+        "1K": {
+          "list": 0.035714,
+          "effective": 0.0285712
+        },
+        "2K": {
+          "list": 0.071429,
+          "effective": 0.0571432
+        }
+      }
+    },
+    {
+      "id": "seedream-4-0",
+      "name": "seedance-4-0",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.024375,
+          "effective": 0.0195
+        }
+      }
+    },
+    {
+      "id": "seedream-4-5",
+      "name": "seedance-4-5",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.0325,
+          "effective": 0.026
+        }
+      }
+    },
+    {
+      "id": "seedream-5-0-lite",
+      "name": "seedream-5-0-lite",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.035,
+          "effective": 0.028
+        }
+      }
+    },
+    {
+      "id": "seedream-5-0-pro",
+      "name": "seedream-5-0-pro",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.045,
+          "effective": 0.036
+        },
+        "1K": {
+          "list": 0.0365625,
+          "effective": 0.02925
+        },
+        "1K-layer": {
+          "list": 0.01828125,
+          "effective": 0.014625
+        },
+        "2K": {
+          "list": 0.073125,
+          "effective": 0.0585
+        },
+        "2K-layer": {
+          "list": 0.0365625,
+          "effective": 0.02925
+        }
+      }
+    },
+    {
+      "id": "wan2.7-image",
+      "name": "wan2.7-image",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.027,
+          "effective": 0.0216
+        }
+      }
+    },
+    {
+      "id": "wan2.7-image-pro",
+      "name": "wan2.7-image-pro",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.068,
+          "effective": 0.0544
+        }
+      }
+    },
+    {
+      "id": "z-image-turbo",
+      "name": "z-image-turbo",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.0125,
+          "effective": 0.01
+        },
+        "prompt_extend": {
+          "list": 0.025,
+          "effective": 0.02
+        }
+      }
+    },
+    {
+      "id": "MiniMax-H3",
+      "name": "MiniMax-H3",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.1143,
+          "effective": 0.09144
+        },
+        "2K": {
+          "list": 0.1143,
+          "effective": 0.09144
+        },
+        "768P": {
+          "list": 0.0714,
+          "effective": 0.05712
+        }
+      }
+    },
+    {
+      "id": "MiniMax-H3-Context-IR",
+      "name": "MiniMax-H3-Context-IR",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_call",
+      "prices": {
+        "default": {
+          "list": 0.1,
+          "effective": 0.08
+        }
+      }
+    },
+    {
+      "id": "MiniMax-H3-Regeneration",
+      "name": "MiniMax-H3-Regeneration",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.0429,
+          "effective": 0.03432
+        },
+        "2K": {
+          "list": 0.0429,
+          "effective": 0.03432
+        }
+      }
+    },
+    {
+      "id": "MiniMax-Hailuo-02",
+      "name": "MiniMax-Hailuo-02",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "512P": {
+          "list": 0.013,
+          "effective": 0.0104
+        },
+        "768P": {
+          "list": 0.05,
+          "effective": 0.04
+        }
+      }
+    },
+    {
+      "id": "MiniMax-Hailuo-2.3",
+      "name": "MiniMax-Hailuo-2.3",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.061,
+          "effective": 0.0488
+        },
+        "1080P": {
+          "list": 0.09,
+          "effective": 0.072
+        }
+      }
+    },
+    {
+      "id": "MiniMax-Hailuo-2.3-Fast",
+      "name": "MiniMax-Hailuo-2.3-Fast",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.031,
+          "effective": 0.0248
+        },
+        "1080P": {
+          "list": 0.053,
+          "effective": 0.0424
+        }
+      }
+    },
+    {
+      "id": "sora-2",
+      "name": "Sora 2",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "official-720P": {
+          "list": 0.1,
+          "effective": 0.08
+        }
+      }
+    },
+    {
+      "id": "veo3.1-fast",
+      "name": "Veo 3.1",
+      "alias": "veo3.1-fast-ext",
+      "specification": "times",
+      "unit": "usd_per_call",
+      "prices": {
+        "default": {
+          "list": 0.175,
+          "effective": 0.14
+        },
+        "4K": {
+          "list": 0.8,
+          "effective": 0.64
+        },
+        "EXTEND-4K": {
+          "list": 0.8,
+          "effective": 0.64
+        },
+        "extend": {
+          "list": 0.175,
+          "effective": 0.14
+        }
+      }
+    },
+    {
+      "id": "veo3.1-quality",
+      "name": "Veo 3.1 Quality",
+      "alias": "veo3.1-quality-ext",
+      "specification": "times",
+      "unit": "usd_per_call",
+      "prices": {
+        "default": {
+          "list": 1.25,
+          "effective": 1
+        },
+        "4K": {
+          "list": 1.875,
+          "effective": 1.5
+        },
+        "EXTEND-4K": {
+          "list": 1.875,
+          "effective": 1.5
+        },
+        "extend": {
+          "list": 1.25,
+          "effective": 1
+        }
+      }
+    },
+    {
+      "id": "flux-3-video",
+      "name": "flux-3-video",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.17,
+          "effective": 0.136
+        },
+        "DRAFT": {
+          "list": 0.06,
+          "effective": 0.048
+        },
+        "FHD": {
+          "list": 0.29,
+          "effective": 0.232
+        },
+        "HD": {
+          "list": 0.17,
+          "effective": 0.136
+        },
+        "V2V-DRAFT": {
+          "list": 0.12,
+          "effective": 0.096
+        },
+        "V2V-FHD": {
+          "list": 0.53,
+          "effective": 0.424
+        },
+        "V2V-HD": {
+          "list": 0.41,
+          "effective": 0.328
+        }
+      }
+    },
+    {
+      "id": "gemini-omni-1.1-flash",
+      "name": "gemini-omni-1.1-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.11,
+          "effective": 0.088
+        },
+        "1080P": {
+          "list": 0.165,
+          "effective": 0.132
+        },
+        "360P": {
+          "list": 0.037,
+          "effective": 0.0296
+        },
+        "4K": {
+          "list": 0.33,
+          "effective": 0.264
+        },
+        "720P": {
+          "list": 0.11,
+          "effective": 0.088
+        }
+      }
+    },
+    {
+      "id": "Omni-Flash-Ext",
+      "name": "gemini-omni-1.1-flash-ext",
+      "alias": "gemini-omni-1.1-flash-ext",
+      "specification": "times",
+      "unit": "usd_per_call",
+      "prices": {
+        "default": {
+          "list": 0.4375,
+          "effective": 0.35
+        },
+        "1080P-10S": {
+          "list": 0.5,
+          "effective": 0.4
+        },
+        "1080P-4S": {
+          "list": 0.3125,
+          "effective": 0.25
+        },
+        "1080P-6S": {
+          "list": 0.375,
+          "effective": 0.3
+        },
+        "1080P-8S": {
+          "list": 0.4375,
+          "effective": 0.35
+        },
+        "1080P-VIDREF": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "360P-10S": {
+          "list": 0.28125,
+          "effective": 0.225
+        },
+        "360P-4S": {
+          "list": 0.1875,
+          "effective": 0.15
+        },
+        "360P-6S": {
+          "list": 0.21875,
+          "effective": 0.175
+        },
+        "360P-8S": {
+          "list": 0.25,
+          "effective": 0.2
+        },
+        "360P-VIDREF": {
+          "list": 0.05,
+          "effective": 0.04
+        },
+        "4K-10S": {
+          "list": 1.125,
+          "effective": 0.9
+        },
+        "4K-4S": {
+          "list": 0.9375,
+          "effective": 0.75
+        },
+        "4K-6S": {
+          "list": 1,
+          "effective": 0.8
+        },
+        "4K-8S": {
+          "list": 1.0625,
+          "effective": 0.85
+        },
+        "4K-VIDREF": {
+          "list": 0.3,
+          "effective": 0.24
+        },
+        "720P-10S": {
+          "list": 0.5,
+          "effective": 0.4
+        },
+        "720P-4S": {
+          "list": 0.3125,
+          "effective": 0.25
+        },
+        "720P-6S": {
+          "list": 0.375,
+          "effective": 0.3
+        },
+        "720P-8S": {
+          "list": 0.4375,
+          "effective": 0.35
+        },
+        "720P-VIDREF": {
+          "list": 0.1,
+          "effective": 0.08
+        }
+      }
+    },
+    {
+      "id": "gemini-omni-flash-preview",
+      "name": "gemini-omni-flash-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_second",
+      "prices": {
+        "720P": {
+          "list": 0.11,
+          "effective": 0.088
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-1.5-video-apimart",
+      "name": "grok-imagine-1.5-video-extï¼grok-imagine-1.5-video-apimartï¼",
+      "alias": "grok-imagine-1.5-video-ext",
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "480P": {
+          "list": 0.01275,
+          "effective": 0.0102
+        },
+        "720P": {
+          "list": 0.0239,
+          "effective": 0.01912
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-video",
+      "name": "grok-imagine-video",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.05,
+          "effective": 0.04
+        },
+        "480P": {
+          "list": 0.05,
+          "effective": 0.04
+        },
+        "720P": {
+          "list": 0.07,
+          "effective": 0.056
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-video-1.5",
+      "name": "grok-imagine-video-1.5",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.08,
+          "effective": 0.064
+        },
+        "1080P": {
+          "list": 0.25,
+          "effective": 0.2
+        },
+        "480P": {
+          "list": 0.08,
+          "effective": 0.064
+        },
+        "720P": {
+          "list": 0.14,
+          "effective": 0.112
+        }
+      }
+    },
+    {
+      "id": "happyhorse-1.0",
+      "name": "happyhorse",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.2875,
+          "effective": 0.23
+        },
+        "1080P": {
+          "list": 0.2875,
+          "effective": 0.23
+        },
+        "720P": {
+          "list": 0.1625,
+          "effective": 0.13
+        },
+        "edit-1080P": {
+          "list": 0.2875,
+          "effective": 0.23
+        },
+        "edit-720P": {
+          "list": 0.1625,
+          "effective": 0.13
+        }
+      }
+    },
+    {
+      "id": "happyhorse-1.1",
+      "name": "happyhorse-1.1",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.215,
+          "effective": 0.172
+        },
+        "1080P": {
+          "list": 0.215,
+          "effective": 0.172
+        },
+        "720P": {
+          "list": 0.1625,
+          "effective": 0.13
+        }
+      }
+    },
+    {
+      "id": "kling-3.0-turbo",
+      "name": "kling-3.0-turbo",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.179,
+          "effective": 0.1432
+        },
+        "720P": {
+          "list": 0.143,
+          "effective": 0.1144
+        }
+      }
+    },
+    {
+      "id": "kling-v2-6",
+      "name": "kling-v2-6",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.046,
+          "effective": 0.0368
+        },
+        "pro": {
+          "list": 0.078125,
+          "effective": 0.0625
+        },
+        "pro-sound": {
+          "list": 0.15625,
+          "effective": 0.125
+        },
+        "pro-sound-voice": {
+          "list": 0.1875,
+          "effective": 0.15
+        }
+      }
+    },
+    {
+      "id": "kling-v2-6-motion-control",
+      "name": "kling-v2-6-motion-control",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.0714,
+          "effective": 0.05712
+        },
+        "pro": {
+          "list": 0.1143,
+          "effective": 0.09144
+        }
+      }
+    },
+    {
+      "id": "kling-v3",
+      "name": "kling-v3",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.084,
+          "effective": 0.0672
+        },
+        "4k": {
+          "list": 0.5357,
+          "effective": 0.42856
+        },
+        "4k-sound": {
+          "list": 0.5357,
+          "effective": 0.42856
+        },
+        "pro": {
+          "list": 0.112,
+          "effective": 0.0896
+        },
+        "pro-sound": {
+          "list": 0.168,
+          "effective": 0.1344
+        },
+        "sound": {
+          "list": 0.126,
+          "effective": 0.1008
+        }
+      }
+    },
+    {
+      "id": "kling-v3-motion-control",
+      "name": "kling-v3-motion-control",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.1286,
+          "effective": 0.10288
+        },
+        "pro": {
+          "list": 0.1714,
+          "effective": 0.13712
+        }
+      }
+    },
+    {
+      "id": "kling-v3-omni",
+      "name": "kling-v3-omni",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.084,
+          "effective": 0.0672
+        },
+        "4k": {
+          "list": 0.5357,
+          "effective": 0.42856
+        },
+        "4k-sound": {
+          "list": 0.5357,
+          "effective": 0.42856
+        },
+        "pro": {
+          "list": 0.112,
+          "effective": 0.0896
+        },
+        "pro-sound": {
+          "list": 0.14,
+          "effective": 0.112
+        },
+        "pro-video": {
+          "list": 0.168,
+          "effective": 0.1344
+        },
+        "sound": {
+          "list": 0.112,
+          "effective": 0.0896
+        },
+        "video": {
+          "list": 0.126,
+          "effective": 0.1008
+        }
+      }
+    },
+    {
+      "id": "kling-video-o1",
+      "name": "kling-video-o1",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.084,
+          "effective": 0.0672
+        },
+        "pro": {
+          "list": 0.112,
+          "effective": 0.0896
+        },
+        "pro-video": {
+          "list": 0.168,
+          "effective": 0.1344
+        },
+        "video": {
+          "list": 0.126,
+          "effective": 0.1008
+        }
+      }
+    },
+    {
+      "id": "pixverse-v6",
+      "name": "pixverse-v6",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.03,
+          "effective": 0.024
+        },
+        "1080P": {
+          "list": 0.08,
+          "effective": 0.064
+        },
+        "1080P-audio": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "360P": {
+          "list": 0.02,
+          "effective": 0.016
+        },
+        "360P-audio": {
+          "list": 0.03,
+          "effective": 0.024
+        },
+        "540P": {
+          "list": 0.03,
+          "effective": 0.024
+        },
+        "540P-audio": {
+          "list": 0.04,
+          "effective": 0.032
+        },
+        "720P": {
+          "list": 0.04,
+          "effective": 0.032
+        },
+        "720P-audio": {
+          "list": 0.05,
+          "effective": 0.04
+        }
+      }
+    },
+    {
+      "id": "seedance-1-0-pro-fast",
+      "name": "seedance-1-0-pro-fast",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.052,
+          "effective": 0.0416
+        },
+        "480P": {
+          "list": 0.011,
+          "effective": 0.0088
+        },
+        "720P": {
+          "list": 0.025,
+          "effective": 0.02
+        }
+      }
+    },
+    {
+      "id": "seedance-1-0-pro-quality",
+      "name": "seedance-1-0-pro-quality",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.13,
+          "effective": 0.104
+        },
+        "480P": {
+          "list": 0.0255,
+          "effective": 0.0204
+        },
+        "720P": {
+          "list": 0.055,
+          "effective": 0.044
+        }
+      }
+    },
+    {
+      "id": "seedance-1-5-pro",
+      "name": "seedance-1-5-pro",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.135,
+          "effective": 0.108
+        },
+        "480P": {
+          "list": 0.0255,
+          "effective": 0.0204
+        },
+        "720P": {
+          "list": 0.055,
+          "effective": 0.044
+        }
+      }
+    },
+    {
+      "id": "seedance-2.0",
+      "name": "seedance-2.0",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.443,
+          "effective": 0.3544
+        },
+        "1080P-input": {
+          "list": 0.2696,
+          "effective": 0.21568
+        },
+        "480P": {
+          "list": 0.0825,
+          "effective": 0.066
+        },
+        "480P-input": {
+          "list": 0.05,
+          "effective": 0.04
+        },
+        "4K": {
+          "list": 0.9025,
+          "effective": 0.722
+        },
+        "4K-input": {
+          "list": 0.5554,
+          "effective": 0.44432
+        },
+        "720P": {
+          "list": 0.1775,
+          "effective": 0.142
+        },
+        "720P-input": {
+          "list": 0.1073,
+          "effective": 0.08584
+        }
+      }
+    },
+    {
+      "id": "seedance-2.0-face",
+      "name": "seedance-2.0-face",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.625,
+          "effective": 0.5
+        },
+        "1080P-input": {
+          "list": 0.375,
+          "effective": 0.3
+        },
+        "480P": {
+          "list": 0.124,
+          "effective": 0.0992
+        },
+        "480P-input": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "720P": {
+          "list": 0.267,
+          "effective": 0.2136
+        },
+        "720P-input": {
+          "list": 0.161,
+          "effective": 0.1288
+        }
+      }
+    },
+    {
+      "id": "seedance-2.0-fast",
+      "name": "seedance-2.0-fast",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "480P": {
+          "list": 0.0498,
+          "effective": 0.03984
+        },
+        "480P-input": {
+          "list": 0.0296,
+          "effective": 0.02368
+        },
+        "720P": {
+          "list": 0.107,
+          "effective": 0.0856
+        },
+        "720P-input": {
+          "list": 0.0641,
+          "effective": 0.05128
+        }
+      }
+    },
+    {
+      "id": "seedance-2.0-fast-face",
+      "name": "seedance-2.0-fast-face",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "480P": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "480P-input": {
+          "list": 0.06,
+          "effective": 0.048
+        },
+        "720P": {
+          "list": 0.215,
+          "effective": 0.172
+        },
+        "720P-input": {
+          "list": 0.129,
+          "effective": 0.1032
+        }
+      }
+    },
+    {
+      "id": "seedance-2.0-mini",
+      "name": "seedance-2.0-mini",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "480P": {
+          "list": 0.0132,
+          "effective": 0.01056
+        },
+        "480P-input": {
+          "list": 0.008,
+          "effective": 0.0064
+        },
+        "720P": {
+          "list": 0.0286,
+          "effective": 0.02288
+        },
+        "720P-input": {
+          "list": 0.0173,
+          "effective": 0.01384
+        }
+      }
+    },
+    {
+      "id": "seedance-2.5",
+      "name": "seedance-2.5",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.27,
+          "effective": 0.216
+        },
+        "1080P": {
+          "list": 0.4811,
+          "effective": 0.38488
+        },
+        "1080P-input": {
+          "list": 0.2874,
+          "effective": 0.22992
+        },
+        "480P": {
+          "list": 0.1201,
+          "effective": 0.09608
+        },
+        "480P-input": {
+          "list": 0.072,
+          "effective": 0.0576
+        },
+        "720P": {
+          "list": 0.27,
+          "effective": 0.216
+        },
+        "720P-input": {
+          "list": 0.162,
+          "effective": 0.1296
+        }
+      }
+    },
+    {
+      "id": "skyreels-v4-fast",
+      "name": "skyreels-v4-fast",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.275,
+          "effective": 0.22
+        },
+        "1080P-refvideo": {
+          "list": 0.5,
+          "effective": 0.4
+        },
+        "480P": {
+          "list": 0.08,
+          "effective": 0.064
+        },
+        "480P-refvideo": {
+          "list": 0.15,
+          "effective": 0.12
+        },
+        "720P": {
+          "list": 0.11,
+          "effective": 0.088
+        },
+        "720P-refvideo": {
+          "list": 0.2,
+          "effective": 0.16
+        }
+      }
+    },
+    {
+      "id": "skyreels-v4-std",
+      "name": "skyreels-v4-std",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.35,
+          "effective": 0.28
+        },
+        "1080P-refvideo": {
+          "list": 0.625,
+          "effective": 0.5
+        },
+        "480P": {
+          "list": 0.11,
+          "effective": 0.088
+        },
+        "480P-refvideo": {
+          "list": 0.18,
+          "effective": 0.144
+        },
+        "720P": {
+          "list": 0.14,
+          "effective": 0.112
+        },
+        "720P-refvideo": {
+          "list": 0.25,
+          "effective": 0.2
+        }
+      }
+    },
+    {
+      "id": "sora-2-preview",
+      "name": "sora-2-preview",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.1,
+          "effective": 0.08
+        }
+      }
+    },
+    {
+      "id": "sora-2-pro",
+      "name": "sora-2-pro",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.75,
+          "effective": 0.6
+        },
+        "official-1024P": {
+          "list": 0.5,
+          "effective": 0.4
+        },
+        "official-1080P": {
+          "list": 0.7,
+          "effective": 0.56
+        },
+        "official-720P": {
+          "list": 0.3,
+          "effective": 0.24
+        }
+      }
+    },
+    {
+      "id": "veo3.1-fast-official",
+      "name": "veo3.1-fast-official",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "1080P": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "1080P-audio": {
+          "list": 0.12,
+          "effective": 0.096
+        },
+        "4K": {
+          "list": 0.25,
+          "effective": 0.2
+        },
+        "4K-audio": {
+          "list": 0.3,
+          "effective": 0.24
+        },
+        "720P": {
+          "list": 0.08,
+          "effective": 0.064
+        },
+        "720P-audio": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "audio": {
+          "list": 0.12,
+          "effective": 0.096
+        }
+      }
+    },
+    {
+      "id": "veo3.1-lite",
+      "name": "veo3.1-lite",
+      "alias": "veo3.1-lite-ext",
+      "specification": "times",
+      "unit": "usd_per_call",
+      "prices": {
+        "default": {
+          "list": 0.0875,
+          "effective": 0.07
+        },
+        "4K": {
+          "list": 0.7125,
+          "effective": 0.57
+        },
+        "EXTEND-4K": {
+          "list": 0.7125,
+          "effective": 0.57
+        },
+        "extend": {
+          "list": 0.0875,
+          "effective": 0.07
+        }
+      }
+    },
+    {
+      "id": "veo3.1-quality-official",
+      "name": "veo3.1-quality-official",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.2,
+          "effective": 0.16
+        },
+        "1080P": {
+          "list": 0.2,
+          "effective": 0.16
+        },
+        "4K": {
+          "list": 0.4,
+          "effective": 0.32
+        },
+        "4K-audio": {
+          "list": 0.6,
+          "effective": 0.48
+        },
+        "720P": {
+          "list": 0.2,
+          "effective": 0.16
+        },
+        "audio": {
+          "list": 0.4,
+          "effective": 0.32
+        }
+      }
+    },
+    {
+      "id": "viduq3",
+      "name": "viduq3",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.1,
+          "effective": 0.08
+        },
+        "1080P": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "540P": {
+          "list": 0.05,
+          "effective": 0.04
+        },
+        "720P": {
+          "list": 0.1,
+          "effective": 0.08
+        }
+      }
+    },
+    {
+      "id": "viduq3-mix",
+      "name": "viduq3-mix",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "1080P": {
+          "list": 0.15,
+          "effective": 0.12
+        },
+        "720P": {
+          "list": 0.125,
+          "effective": 0.1
+        }
+      }
+    },
+    {
+      "id": "viduq3-pro",
+      "name": "viduq3-pro",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.16,
+          "effective": 0.128
+        },
+        "540P": {
+          "list": 0.07,
+          "effective": 0.056
+        },
+        "720P": {
+          "list": 0.15,
+          "effective": 0.12
+        }
+      }
+    },
+    {
+      "id": "viduq3-turbo",
+      "name": "viduq3-turbo",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.07,
+          "effective": 0.056
+        },
+        "540P": {
+          "list": 0.04,
+          "effective": 0.032
+        },
+        "720P": {
+          "list": 0.06,
+          "effective": 0.048
+        }
+      }
+    },
+    {
+      "id": "wan2.5-preview",
+      "name": "wan2.5-preview",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.137,
+          "effective": 0.1096
+        },
+        "480P": {
+          "list": 0.042,
+          "effective": 0.0336
+        },
+        "720P": {
+          "list": 0.083,
+          "effective": 0.0664
+        }
+      }
+    },
+    {
+      "id": "wan2.6",
+      "name": "wan2.6",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "1080P": {
+          "list": 0.105,
+          "effective": 0.084
+        }
+      }
+    },
+    {
+      "id": "wan2.6-i2v",
+      "name": "wan2.6-i2v",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.137,
+          "effective": 0.1096
+        },
+        "720P": {
+          "list": 0.083,
+          "effective": 0.0664
+        }
+      }
+    },
+    {
+      "id": "wan2.6-i2v-flash",
+      "name": "wan2.6-i2v-flash",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "1080P": {
+          "list": 0.035,
+          "effective": 0.028
+        },
+        "1080P-audio": {
+          "list": 0.069,
+          "effective": 0.0552
+        },
+        "720P": {
+          "list": 0.021,
+          "effective": 0.0168
+        },
+        "720P-audio": {
+          "list": 0.042,
+          "effective": 0.0336
+        }
+      }
+    },
+    {
+      "id": "wan2.7",
+      "name": "wan2.7",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.083,
+          "effective": 0.0664
+        },
+        "1080P": {
+          "list": 0.137,
+          "effective": 0.1096
+        }
+      }
+    },
+    {
+      "id": "wan2.7-r2v",
+      "name": "wan2.7-r2v",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.083,
+          "effective": 0.0664
+        },
+        "1080P": {
+          "list": 0.137,
+          "effective": 0.1096
+        }
+      }
+    },
+    {
+      "id": "wan2.7-videoedit",
+      "name": "wan2.7-videoedit",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.083,
+          "effective": 0.0664
+        },
+        "1080P": {
+          "list": 0.137,
+          "effective": 0.1096
+        }
+      }
+    },
+    {
+      "id": "wan3.0-video",
+      "name": "wan3.0-video",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.16438,
+          "effective": 0.131504
+        },
+        "1080P": {
+          "list": 0.16438,
+          "effective": 0.131504
+        },
+        "480P": {
+          "list": 0.0411,
+          "effective": 0.03288
+        },
+        "720P": {
+          "list": 0.08219,
+          "effective": 0.065752
+        }
+      }
+    },
+    {
+      "id": "wan3.0-video-prime",
+      "name": "wan3.0-video-prime",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.257143,
+          "effective": 0.2057144
+        },
+        "1080P": {
+          "list": 0.257143,
+          "effective": 0.2057144
+        },
+        "480P": {
+          "list": 0.064286,
+          "effective": 0.0514288
+        },
+        "720P": {
+          "list": 0.128571,
+          "effective": 0.1028568
+        }
+      }
+    },
+    {
+      "id": "flowmusic",
+      "name": "flowmusic",
+      "alias": null,
+      "specification": "times",
+      "unit": "usd_per_call",
+      "prices": {
+        "default": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "cover": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "cover-lyria-3.5": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "download_audio": {
+          "list": 0.025,
+          "effective": 0.02
+        },
+        "extend": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "extend-lyria-3.5": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "generate": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "generate-lyria-3.5": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "lyrics": {
+          "list": 0.025,
+          "effective": 0.02
+        },
+        "replace": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "replace-lyria-3.5": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "stems": {
+          "list": 0.075,
+          "effective": 0.06
+        },
+        "upload_audio": {
+          "list": 0.0125,
+          "effective": 0.01
+        },
+        "video_clip": {
+          "list": 0.025,
+          "effective": 0.02
+        }
+      }
+    },
+    {
+      "id": "suno",
+      "name": "suno",
+      "alias": null,
+      "specification": "times",
+      "unit": "usd_per_call",
+      "prices": {
+        "default": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "add_instrumental": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_instrumental-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_instrumental-v5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_instrumental-v5.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_instrumental-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_instrumental-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_instrumental-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_stem": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_stem-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_stem-v5.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_stem-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_stem-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_stem-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_vocals": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_vocals-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_vocals-v5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_vocals-v5.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_vocals-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_vocals-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "add_vocals-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "adjust_speed": {
+          "list": 0.03,
+          "effective": 0.024
+        },
+        "aligned_lyrics": {
+          "list": 0.001,
+          "effective": 0.0008
+        },
+        "bpm": {
+          "list": 0.001,
+          "effective": 0.0008
+        },
+        "concat": {
+          "list": 0.005,
+          "effective": 0.004
+        },
+        "cover": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-v3.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-v4": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-v4.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-v4.5+": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-v4.5-all": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-v5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-v5.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "cover-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "create_model": {
+          "list": 1.2,
+          "effective": 0.96
+        },
+        "create_voice": {
+          "list": 0.02,
+          "effective": 0.016
+        },
+        "crop": {
+          "list": 0.01,
+          "effective": 0.008
+        },
+        "download": {
+          "list": 0.002,
+          "effective": 0.0016
+        },
+        "extend": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-v3.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-v4": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-v4.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-v4.5+": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-v4.5-all": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-v5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-v5.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "extend-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "fade_in": {
+          "list": 0.01,
+          "effective": 0.008
+        },
+        "fade_out": {
+          "list": 0.01,
+          "effective": 0.008
+        },
+        "generate_video": {
+          "list": 0.005,
+          "effective": 0.004
+        },
+        "inspo": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "inspo-custom": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "inspo-v4": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "inspo-v4.5": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "inspo-v4.5+": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "inspo-v4.5-all": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "inspo-v5": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "inspo-v5.5": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "inspo-v6": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "inspo-v6-mini": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "inspo-v6-wild": {
+          "list": 0.085,
+          "effective": 0.068
+        },
+        "lyrics": {
+          "list": 0.01,
+          "effective": 0.008
+        },
+        "mashup": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-v3.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-v4": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-v4.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-v4.5+": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-v4.5-all": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-v5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-v5.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "mashup-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "midi": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-v3.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-v4": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-v4.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-v4.5+": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-v4.5-all": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-v5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-v5.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "music-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "persona": {
+          "list": 0.005,
+          "effective": 0.004
+        },
+        "remaster": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "remaster-v4.5+": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "remaster-v5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "remaster-v5.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "remove_section": {
+          "list": 0.01,
+          "effective": 0.008
+        },
+        "replace_section": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "replace_section-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "replace_section-v4": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "replace_section-v4.5+": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "replace_section-v5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "replace_section-v5.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "replace_section-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "replace_section-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "replace_section-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-v3.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-v4": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-v4.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-v4.5+": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-v4.5-all": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-v5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-v5.5": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sample-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "sounds": {
+          "list": 0.012,
+          "effective": 0.0096
+        },
+        "sounds-v5": {
+          "list": 0.012,
+          "effective": 0.0096
+        },
+        "sounds-v5.5": {
+          "list": 0.012,
+          "effective": 0.0096
+        },
+        "sounds-v6": {
+          "list": 0.012,
+          "effective": 0.0096
+        },
+        "sounds-v6-mini": {
+          "list": 0.012,
+          "effective": 0.0096
+        },
+        "sounds-v6-wild": {
+          "list": 0.012,
+          "effective": 0.0096
+        },
+        "stems": {
+          "list": 0.125,
+          "effective": 0.1
+        },
+        "stems_all": {
+          "list": 0.3,
+          "effective": 0.24
+        },
+        "upload": {
+          "list": 0.005,
+          "effective": 0.004
+        },
+        "upload_cover-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "upload_cover-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "upload_cover-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "upload_cover-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "upload_extend-custom": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "upload_extend-v6": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "upload_extend-v6-mini": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "upload_extend-v6-wild": {
+          "list": 0.0625,
+          "effective": 0.05
+        },
+        "upsample_tags": {
+          "list": 0.005,
+          "effective": 0.004
+        },
+        "vox": {
+          "list": 0.005,
+          "effective": 0.004
+        },
+        "wav": {
+          "list": 0.002,
+          "effective": 0.0016
+        }
+      }
+    },
+    {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5 Turbo",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.5,
+          "output": 1.5
+        },
+        "effective": {
+          "input": 0.4,
+          "output": 1.2
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-4",
+      "name": "GPT-4",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 30,
+          "output": 60
+        },
+        "effective": {
+          "input": 24,
+          "output": 48
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "cached_input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 2,
+          "cached_input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-4o-mini",
+      "name": "GPT-4o Mini",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "effective": {
+          "input": 0.12,
+          "output": 0.48
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "babbage-002",
+      "name": "babbage-002",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.4,
+          "output": 0.4
+        },
+        "effective": {
+          "input": 0.32,
+          "output": 0.32
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "chatgpt-4o-latest",
+      "name": "chatgpt-4o-latest",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "output": 15
+        },
+        "effective": {
+          "input": 4,
+          "output": 12
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "claude-fable-5",
+      "name": "claude-fable-5",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 10,
+          "cached_input": 1,
+          "cache_write_5m": 12.5,
+          "cache_write_1h": 20,
+          "output": 50
+        },
+        "effective": {
+          "input": 8,
+          "cached_input": 0.8,
+          "cache_write_5m": 10,
+          "cache_write_1h": 16,
+          "output": 40
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "claude-fable-5.1",
+      "name": "claude-fable-5.1",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 10,
+          "cached_input": 0.25,
+          "cache_write_5m": 12.5,
+          "cache_write_1h": 20,
+          "output": 50
+        },
+        "effective": {
+          "input": 8,
+          "cached_input": 0.2,
+          "cache_write_5m": 10,
+          "cache_write_1h": 16,
+          "output": 40
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "claude-haiku-4-5-20251001",
+      "name": "claude-haiku-4-5-20251001",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1,
+          "cached_input": 0.1,
+          "cache_write_5m": 1.25,
+          "cache_write_1h": 2,
+          "output": 5
+        },
+        "effective": {
+          "input": 0.8,
+          "cached_input": 0.08,
+          "cache_write_5m": 1,
+          "cache_write_1h": 1.6,
+          "output": 4
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "claude-haiku-4-5-20251001-thinking",
+      "name": "claude-haiku-4-5-20251001-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1,
+          "output": 5
+        },
+        "effective": {
+          "input": 0.8,
+          "output": 4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "claude-opus-4-5-20251101",
+      "name": "claude-opus-4-5-20251101",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "output": 25
+        },
+        "effective": {
+          "input": 4,
+          "output": 20
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "claude-opus-4-5-20251101-thinking",
+      "name": "claude-opus-4-5-20251101-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "output": 25
+        },
+        "effective": {
+          "input": 4,
+          "output": 20
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "claude-opus-4-6",
+      "name": "claude-opus-4-6",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "cached_input": 0.5,
+          "cache_write_5m": 6.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 4,
+          "cached_input": 0.4,
+          "cache_write_5m": 5,
+          "output": 8
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "claude-opus-4-6-thinking",
+      "name": "claude-opus-4-6-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "output": 25
+        },
+        "effective": {
+          "input": 4,
+          "output": 20
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "claude-opus-4-7",
+      "name": "claude-opus-4-7",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "cached_input": 0.5,
+          "cache_write_5m": 6.25,
+          "cache_write_1h": 10,
+          "output": 25
+        },
+        "effective": {
+          "input": 4,
+          "cached_input": 0.4,
+          "cache_write_5m": 5,
+          "cache_write_1h": 8,
+          "output": 20
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "claude-opus-4-8",
+      "name": "claude-opus-4-8",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "cached_input": 0.5,
+          "cache_write_5m": 6.25,
+          "cache_write_1h": 10,
+          "output": 25
+        },
+        "effective": {
+          "input": 4,
+          "cached_input": 0.4,
+          "cache_write_5m": 5,
+          "cache_write_1h": 8,
+          "output": 20
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "claude-opus-5",
+      "name": "claude-opus-5",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "cached_input": 0.5,
+          "cache_write": 0,
+          "cache_write_5m": 6.25,
+          "cache_write_1h": 10,
+          "output": 25
+        },
+        "effective": {
+          "input": 4,
+          "cached_input": 0.4,
+          "cache_write": 0,
+          "cache_write_5m": 5,
+          "cache_write_1h": 8,
+          "output": 20
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929",
+      "name": "claude-sonnet-4-5-20250929",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 3,
+          "cached_input": 0.3,
+          "cache_write_5m": 3.75,
+          "cache_write_1h": 6,
+          "output": 15
+        },
+        "effective": {
+          "input": 2.4,
+          "cached_input": 0.24,
+          "cache_write_5m": 3,
+          "cache_write_1h": 4.8,
+          "output": 12
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929-thinking",
+      "name": "claude-sonnet-4-5-20250929-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 3,
+          "output": 15
+        },
+        "effective": {
+          "input": 2.4,
+          "output": 12
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "claude-sonnet-4-6",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 3,
+          "cached_input": 0.3,
+          "cache_write_5m": 3.75,
+          "cache_write_1h": 6,
+          "output": 15
+        },
+        "effective": {
+          "input": 2.4,
+          "cached_input": 0.24,
+          "cache_write_5m": 3,
+          "cache_write_1h": 4.8,
+          "output": 12
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "claude-sonnet-4-6-thinking",
+      "name": "claude-sonnet-4-6-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 3,
+          "output": 15
+        },
+        "effective": {
+          "input": 2.4,
+          "output": 12
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "claude-sonnet-5",
+      "name": "claude-sonnet-5",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "cached_input": 0.2,
+          "cache_write_5m": 2.5,
+          "cache_write_1h": 4,
+          "output": 10
+        },
+        "effective": {
+          "input": 1.6,
+          "cached_input": 0.16,
+          "cache_write_5m": 2,
+          "cache_write_1h": 3.2,
+          "output": 8
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "computer-use-preview",
+      "name": "computer-use-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 3,
+          "output": 12
+        },
+        "effective": {
+          "input": 2.4,
+          "output": 9.6
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "computer-use-preview-2025-03-11",
+      "name": "computer-use-preview-2025-03-11",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 3,
+          "output": 12
+        },
+        "effective": {
+          "input": 2.4,
+          "output": 9.6
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "davinci-002",
+      "name": "davinci-002",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "output": 2
+        },
+        "effective": {
+          "input": 1.6,
+          "output": 1.6
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "deepseek-ocr",
+      "name": "deepseek-ocr",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.057,
+          "output": 0.2565
+        },
+        "effective": {
+          "input": 0.0456,
+          "output": 0.2052
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "deepseek-r1",
+      "name": "deepseek-r1",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.56,
+          "output": 2.24
+        },
+        "effective": {
+          "input": 0.448,
+          "output": 1.792
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "deepseek-r1-0528",
+      "name": "deepseek-r1-0528",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.51,
+          "output": 1.5402
+        },
+        "effective": {
+          "input": 0.408,
+          "output": 1.23216
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "deepseek-r1-250528",
+      "name": "deepseek-r1-250528",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.56,
+          "output": 2.24
+        },
+        "effective": {
+          "input": 0.448,
+          "output": 1.792
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "deepseek-v3-0324",
+      "name": "deepseek-v3-0324",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.257,
+          "output": 1.028
+        },
+        "effective": {
+          "input": 0.2056,
+          "output": 0.8224
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "deepseek-v3.1-terminus",
+      "name": "deepseek-v3.1-terminus",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.51,
+          "output": 1.53
+        },
+        "effective": {
+          "input": 0.408,
+          "output": 1.224
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "deepseek-v3.2",
+      "name": "deepseek-v3.2",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.257,
+          "output": 0.3855
+        },
+        "effective": {
+          "input": 0.2056,
+          "output": 0.3084
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "deepseek-v3.2-exp",
+      "name": "deepseek-v3.2-exp",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.257,
+          "output": 0.3855
+        },
+        "effective": {
+          "input": 0.2056,
+          "output": 0.3084
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "name": "deepseek-v4-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.428571,
+          "cached_input": 0.085714,
+          "output": 1.285714
+        },
+        "effective": {
+          "input": 0.3428568,
+          "cached_input": 0.0685712,
+          "output": 1.0285712
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "deepseek-v4-pro",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.285714,
+          "cached_input": 0.257143,
+          "output": 3.857143
+        },
+        "effective": {
+          "input": 1.0285712,
+          "cached_input": 0.2057144,
+          "output": 3.0857144
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "name": "gemini-2.5-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.3,
+          "output": 2.4999
+        },
+        "effective": {
+          "input": 0.24,
+          "output": 1.99992
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-2.5-flash-lite",
+      "name": "gemini-2.5-flash-lite",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.1,
+          "output": 0.4
+        },
+        "effective": {
+          "input": 0.08,
+          "output": 0.32
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-2.5-flash-nothinking",
+      "name": "gemini-2.5-flash-nothinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.3,
+          "output": 2.4999
+        },
+        "effective": {
+          "input": 0.24,
+          "output": 1.99992
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-2.5-flash-thinking",
+      "name": "gemini-2.5-flash-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.3,
+          "output": 2.4999
+        },
+        "effective": {
+          "input": 0.24,
+          "output": 1.99992
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "name": "gemini-2.5-pro",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-2.5-pro-nothinking",
+      "name": "gemini-2.5-pro-nothinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-2.5-pro-thinking",
+      "name": "gemini-2.5-pro-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "name": "gemini-3-flash-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.5,
+          "output": 3
+        },
+        "effective": {
+          "input": 0.4,
+          "output": 2.4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3-flash-preview-nothinking",
+      "name": "gemini-3-flash-preview-nothinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.5,
+          "output": 3
+        },
+        "effective": {
+          "input": 0.4,
+          "output": 2.4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3-flash-preview-thinking",
+      "name": "gemini-3-flash-preview-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.5,
+          "output": 3
+        },
+        "effective": {
+          "input": 0.4,
+          "output": 2.4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3-pro-preview",
+      "name": "gemini-3-pro-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "output": 12
+        },
+        "effective": {
+          "input": 1.6,
+          "output": 9.6
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3-pro-preview-thinking",
+      "name": "gemini-3-pro-preview-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "output": 12
+        },
+        "effective": {
+          "input": 1.6,
+          "output": 9.6
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3.1-flash-lite-preview",
+      "name": "gemini-3.1-flash-lite-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.25,
+          "output": 1.5
+        },
+        "effective": {
+          "input": 0.2,
+          "output": 1.2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3.1-pro-preview",
+      "name": "gemini-3.1-pro-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "output": 12
+        },
+        "effective": {
+          "input": 1.6,
+          "output": 9.6
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3.1-pro-preview-thinking",
+      "name": "gemini-3.1-pro-preview-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "output": 12
+        },
+        "effective": {
+          "input": 1.6,
+          "output": 9.6
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3.5-flash",
+      "name": "gemini-3.5-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.5,
+          "output": 9
+        },
+        "effective": {
+          "input": 1.2,
+          "output": 7.2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3.5-flash-lite",
+      "name": "gemini-3.5-flash-lite",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.3,
+          "output": 2.499
+        },
+        "effective": {
+          "input": 0.24,
+          "output": 1.9992
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gemini-3.6-flash",
+      "name": "gemini-3.6-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5
+        },
+        "effective": {
+          "input": 1.2,
+          "cached_input": 0.12,
+          "output": 6
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "gemini-3.7-flash",
+      "name": "gemini-3.7-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.75,
+          "cached_input": 0.075,
+          "output": 3.75
+        },
+        "effective": {
+          "input": 0.6,
+          "cached_input": 0.06,
+          "output": 3
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "name": "gemini-3.8-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.75,
+          "cached_input": 0.075,
+          "output": 3.75
+        },
+        "effective": {
+          "input": 0.6,
+          "cached_input": 0.06,
+          "output": 3
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "glm-4.6",
+      "name": "glm-4.6",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.45,
+          "output": 1.8
+        },
+        "effective": {
+          "input": 0.36,
+          "output": 1.44
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "glm-4.7",
+      "name": "glm-4.7",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.5,
+          "output": 2.1
+        },
+        "effective": {
+          "input": 0.4,
+          "output": 1.68
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "glm-5",
+      "name": "glm-5",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1,
+          "output": 1.6
+        },
+        "effective": {
+          "input": 0.8,
+          "output": 1.28
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "glm-5.1",
+      "name": "glm-5.1",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1,
+          "output": 1.8
+        },
+        "effective": {
+          "input": 0.8,
+          "output": 1.44
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "glm-5.2",
+      "name": "glm-5.2",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1428,
+          "output": 3.9998
+        },
+        "effective": {
+          "input": 0.91424,
+          "output": 3.19984
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "glm-5.3",
+      "name": "glm-5.3",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.4,
+          "cached_input": 0.26,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 1.12,
+          "cached_input": 0.208,
+          "output": 3.52
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "glm-5.3-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.075,
+          "cached_input": 0.015,
+          "output": 0.25
+        },
+        "effective": {
+          "input": 0.06,
+          "cached_input": 0.012,
+          "output": 0.2
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-3.5-turbo-0125",
+      "name": "gpt-3.5-turbo-0125",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.5,
+          "output": 1.5
+        },
+        "effective": {
+          "input": 0.4,
+          "output": 1.2
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-3.5-turbo-0613",
+      "name": "gpt-3.5-turbo-0613",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.5,
+          "output": 3
+        },
+        "effective": {
+          "input": 1.2,
+          "output": 2.4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-3.5-turbo-1106",
+      "name": "gpt-3.5-turbo-1106",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1,
+          "output": 2
+        },
+        "effective": {
+          "input": 0.8,
+          "output": 1.6
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-3.5-turbo-16k",
+      "name": "gpt-3.5-turbo-16k",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 3,
+          "output": 9
+        },
+        "effective": {
+          "input": 2.4,
+          "output": 7.2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-3.5-turbo-16k-0613",
+      "name": "gpt-3.5-turbo-16k-0613",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 3,
+          "output": 9
+        },
+        "effective": {
+          "input": 2.4,
+          "output": 7.2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-3.5-turbo-instruct",
+      "name": "gpt-3.5-turbo-instruct",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.5,
+          "output": 1.995
+        },
+        "effective": {
+          "input": 1.2,
+          "output": 1.596
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-3.5-turbo-instruct-0914",
+      "name": "gpt-3.5-turbo-instruct-0914",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.5,
+          "output": 1.995
+        },
+        "effective": {
+          "input": 1.2,
+          "output": 1.596
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4-0125-preview",
+      "name": "gpt-4-0125-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 10,
+          "output": 20
+        },
+        "effective": {
+          "input": 8,
+          "output": 16
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4-0613",
+      "name": "gpt-4-0613",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 30,
+          "output": 60
+        },
+        "effective": {
+          "input": 24,
+          "output": 48
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4-1106-preview",
+      "name": "gpt-4-1106-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 10,
+          "output": 20
+        },
+        "effective": {
+          "input": 8,
+          "output": 16
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4-32k",
+      "name": "gpt-4-32k",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "output": 10
+        },
+        "effective": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4-32k-0613",
+      "name": "gpt-4-32k-0613",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "output": 10
+        },
+        "effective": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4-turbo",
+      "name": "gpt-4-turbo",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 10,
+          "output": 30
+        },
+        "effective": {
+          "input": 8,
+          "output": 24
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4-turbo-2024-04-09",
+      "name": "gpt-4-turbo-2024-04-09",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 10,
+          "output": 30
+        },
+        "effective": {
+          "input": 8,
+          "output": 24
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4-turbo-preview",
+      "name": "gpt-4-turbo-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 10,
+          "output": 30
+        },
+        "effective": {
+          "input": 8,
+          "output": 24
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4-vision-preview",
+      "name": "gpt-4-vision-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "output": 10
+        },
+        "effective": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4.1",
+      "name": "gpt-4.1",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "cached_input": 0.5,
+          "output": 8
+        },
+        "effective": {
+          "input": 1.6,
+          "cached_input": 0.4,
+          "output": 6.4
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-4.1-2025-04-14",
+      "name": "gpt-4.1-2025-04-14",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "output": 8
+        },
+        "effective": {
+          "input": 1.6,
+          "output": 6.4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4.1-mini",
+      "name": "gpt-4.1-mini",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.4,
+          "cached_input": 0.1,
+          "output": 1.6
+        },
+        "effective": {
+          "input": 0.32,
+          "cached_input": 0.08,
+          "output": 1.28
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-4.1-mini-2025-04-14",
+      "name": "gpt-4.1-mini-2025-04-14",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.4,
+          "output": 1.6
+        },
+        "effective": {
+          "input": 0.32,
+          "output": 1.28
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4.1-nano",
+      "name": "gpt-4.1-nano",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.1,
+          "cached_input": 0.025,
+          "output": 0.4
+        },
+        "effective": {
+          "input": 0.08,
+          "cached_input": 0.02,
+          "output": 0.32
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-4.1-nano-2025-04-14",
+      "name": "gpt-4.1-nano-2025-04-14",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.1,
+          "output": 0.4
+        },
+        "effective": {
+          "input": 0.08,
+          "output": 0.32
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4.5-preview",
+      "name": "gpt-4.5-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 75,
+          "output": 150
+        },
+        "effective": {
+          "input": 60,
+          "output": 120
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4.5-preview-2025-02-27",
+      "name": "gpt-4.5-preview-2025-02-27",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 75,
+          "output": 150
+        },
+        "effective": {
+          "input": 60,
+          "output": 120
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-2024-05-13",
+      "name": "gpt-4o-2024-05-13",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "output": 15
+        },
+        "effective": {
+          "input": 4,
+          "output": 12
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-4o-2024-08-06",
+      "name": "gpt-4o-2024-08-06",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "output": 10
+        },
+        "effective": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-2024-11-20",
+      "name": "gpt-4o-2024-11-20",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "output": 10
+        },
+        "effective": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-mini-2024-07-18",
+      "name": "gpt-4o-mini-2024-07-18",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "effective": {
+          "input": 0.12,
+          "output": 0.48
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-mini-realtime-preview",
+      "name": "gpt-4o-mini-realtime-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.6,
+          "output": 2.4
+        },
+        "effective": {
+          "input": 0.48,
+          "output": 1.92
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-mini-realtime-preview-2024-12-17",
+      "name": "gpt-4o-mini-realtime-preview-2024-12-17",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.6,
+          "output": 2.4
+        },
+        "effective": {
+          "input": 0.48,
+          "output": 1.92
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-mini-search-preview",
+      "name": "gpt-4o-mini-search-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "effective": {
+          "input": 0.12,
+          "output": 0.48
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-mini-search-preview-2025-03-11",
+      "name": "gpt-4o-mini-search-preview-2025-03-11",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "effective": {
+          "input": 0.12,
+          "output": 0.48
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-mini-transcribe",
+      "name": "gpt-4o-mini-transcribe",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 5
+        },
+        "effective": {
+          "input": 1,
+          "output": 4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-realtime-preview",
+      "name": "gpt-4o-realtime-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "output": 20
+        },
+        "effective": {
+          "input": 4,
+          "output": 16
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-realtime-preview-2024-10-01",
+      "name": "gpt-4o-realtime-preview-2024-10-01",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "output": 20
+        },
+        "effective": {
+          "input": 4,
+          "output": 16
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-realtime-preview-2024-12-17",
+      "name": "gpt-4o-realtime-preview-2024-12-17",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "output": 20
+        },
+        "effective": {
+          "input": 4,
+          "output": 16
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-realtime-preview-2025-06-03",
+      "name": "gpt-4o-realtime-preview-2025-06-03",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "output": 20
+        },
+        "effective": {
+          "input": 4,
+          "output": 16
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-search-preview",
+      "name": "gpt-4o-search-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "output": 10
+        },
+        "effective": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-search-preview-2025-03-11",
+      "name": "gpt-4o-search-preview-2025-03-11",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "output": 10
+        },
+        "effective": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-transcribe",
+      "name": "gpt-4o-transcribe",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "output": 10
+        },
+        "effective": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-4o-transcribe-diarize",
+      "name": "gpt-4o-transcribe-diarize",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "output": 10
+        },
+        "effective": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5",
+      "name": "gpt-5",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "cached_input": 0.125,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "cached_input": 0.1,
+          "output": 8
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5-2025-08-07",
+      "name": "gpt-5-2025-08-07",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5-chat-latest",
+      "name": "gpt-5-chat-latest",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5-codex",
+      "name": "gpt-5-codex",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5-mini",
+      "name": "gpt-5-mini",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.25,
+          "cached_input": 0.025,
+          "output": 2
+        },
+        "effective": {
+          "input": 0.2,
+          "cached_input": 0.02,
+          "output": 1.6
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5-mini-2025-08-07",
+      "name": "gpt-5-mini-2025-08-07",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.25,
+          "output": 2
+        },
+        "effective": {
+          "input": 0.2,
+          "output": 1.6
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5-nano",
+      "name": "gpt-5-nano",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.05,
+          "cached_input": 0.005,
+          "output": 0.4
+        },
+        "effective": {
+          "input": 0.04,
+          "cached_input": 0.004,
+          "output": 0.32
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5-nano-2025-08-07",
+      "name": "gpt-5-nano-2025-08-07",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.05,
+          "output": 0.4
+        },
+        "effective": {
+          "input": 0.04,
+          "output": 0.32
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5-pro",
+      "name": "gpt-5-pro",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 15,
+          "output": 120
+        },
+        "effective": {
+          "input": 12,
+          "output": 96
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5-pro-2025-10-06",
+      "name": "gpt-5-pro-2025-10-06",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 15,
+          "output": 120
+        },
+        "effective": {
+          "input": 12,
+          "output": 96
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5-search-api",
+      "name": "gpt-5-search-api",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5-search-api-2025-10-14",
+      "name": "gpt-5-search-api-2025-10-14",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5.1",
+      "name": "gpt-5.1",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "cached_input": 0.125,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "cached_input": 0.1,
+          "output": 8
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5.1-2025-11-13",
+      "name": "gpt-5.1-2025-11-13",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5.1-chat-latest",
+      "name": "gpt-5.1-chat-latest",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5.1-codex",
+      "name": "gpt-5.1-codex",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5.1-codex-max",
+      "name": "gpt-5.1-codex-max",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 10
+        },
+        "effective": {
+          "input": 1,
+          "output": 8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5.1-codex-mini",
+      "name": "gpt-5.1-codex-mini",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.25,
+          "output": 2
+        },
+        "effective": {
+          "input": 0.2,
+          "output": 1.6
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5.2",
+      "name": "gpt-5.2",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.75,
+          "cached_input": 0.175,
+          "output": 14
+        },
+        "effective": {
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 11.2
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5.2-chat-latest",
+      "name": "gpt-5.2-chat-latest",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.75,
+          "output": 14
+        },
+        "effective": {
+          "input": 1.4,
+          "output": 11.2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5.2-codex",
+      "name": "gpt-5.2-codex",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.75,
+          "output": 14
+        },
+        "effective": {
+          "input": 1.4,
+          "output": 11.2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5.2-pro",
+      "name": "gpt-5.2-pro",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 21,
+          "output": 168
+        },
+        "effective": {
+          "input": 16.8,
+          "output": 134.4
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5.3-codex",
+      "name": "gpt-5.3-codex",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.75,
+          "output": 14
+        },
+        "effective": {
+          "input": 1.4,
+          "output": 11.2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-5.4",
+      "name": "gpt-5.4",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2.5,
+          "cached_input": 0.25,
+          "output": 15
+        },
+        "effective": {
+          "input": 2,
+          "cached_input": 0.2,
+          "output": 12
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "name": "gpt-5.4-mini",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.75,
+          "cached_input": 0.075,
+          "output": 4.5
+        },
+        "effective": {
+          "input": 0.6,
+          "cached_input": 0.06,
+          "output": 3.6
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5.4-nano",
+      "name": "gpt-5.4-nano",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.2,
+          "cached_input": 0.02,
+          "output": 1.25
+        },
+        "effective": {
+          "input": 0.16,
+          "cached_input": 0.016,
+          "output": 1
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5.4-pro",
+      "name": "gpt-5.4-pro",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 30,
+          "output": 180
+        },
+        "effective": {
+          "input": 24,
+          "output": 144
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5.5",
+      "name": "gpt-5.5",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 5,
+          "cached_input": 0.5,
+          "output": 30
+        },
+        "effective": {
+          "input": 4,
+          "cached_input": 0.4,
+          "output": 24
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5.5-pro",
+      "name": "gpt-5.5-pro",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 30,
+          "output": 180
+        },
+        "effective": {
+          "input": 24,
+          "output": 144
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "name": "gpt-5.6-luna",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.2,
+          "cached_input": 0.02,
+          "cache_write": 0.25,
+          "output": 1.2
+        },
+        "effective": {
+          "input": 0.16,
+          "cached_input": 0.016,
+          "cache_write": 0.2,
+          "output": 0.96
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "name": "gpt-5.6-sol",
+      "alias": "gpt-5.6",
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 4,
+          "cached_input": 0.4,
+          "cache_write": 5,
+          "output": 20
+        },
+        "effective": {
+          "input": 3.2,
+          "cached_input": 0.32,
+          "cache_write": 4,
+          "output": 16
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "name": "gpt-5.6-terra",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "cached_input": 0.2,
+          "cache_write": 2.5,
+          "output": 12
+        },
+        "effective": {
+          "input": 1.6,
+          "cached_input": 0.16,
+          "cache_write": 2,
+          "output": 9.6
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "gpt-6-astra",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 10,
+          "cached_input": 1,
+          "cache_write": 12.5,
+          "output": 50
+        },
+        "effective": {
+          "input": 8,
+          "cached_input": 0.8,
+          "cache_write": 10,
+          "output": 40
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-realtime",
+      "name": "gpt-realtime",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 4,
+          "output": 16
+        },
+        "effective": {
+          "input": 3.2,
+          "output": 12.8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-realtime-2025-08-28",
+      "name": "gpt-realtime-2025-08-28",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 4,
+          "output": 16
+        },
+        "effective": {
+          "input": 3.2,
+          "output": 12.8
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-realtime-mini",
+      "name": "gpt-realtime-mini",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.6,
+          "output": 2.4
+        },
+        "effective": {
+          "input": 0.48,
+          "output": 1.92
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "gpt-realtime-mini-2025-10-06",
+      "name": "gpt-realtime-mini-2025-10-06",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.6,
+          "output": 2.4
+        },
+        "effective": {
+          "input": 0.48,
+          "output": 1.92
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "grok-4.20-0309-non-reasoning",
+      "name": "grok-4.20-0309-non-reasoning",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 2.5
+        },
+        "effective": {
+          "input": 1,
+          "output": 2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "grok-4.20-0309-reasoning",
+      "name": "grok-4.20-0309-reasoning",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 2.5
+        },
+        "effective": {
+          "input": 1,
+          "output": 2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "grok-4.20-multi-agent-0309",
+      "name": "grok-4.20-multi-agent-0309",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 2.5
+        },
+        "effective": {
+          "input": 1,
+          "output": 2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "grok-4.3",
+      "name": "grok-4.3",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.25,
+          "output": 2.5
+        },
+        "effective": {
+          "input": 1,
+          "output": 2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "grok-4.5",
+      "name": "grok-4.5",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "output": 4
+        },
+        "effective": {
+          "input": 1.6,
+          "output": 3.2
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "grok-4.6",
+      "name": "grok-4.6",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "cached_input": 0.5,
+          "output": 6
+        },
+        "effective": {
+          "input": 1.6,
+          "cached_input": 0.4,
+          "output": 4.8
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "grok-build-0.1",
+      "name": "grok-build-0.1",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1,
+          "output": 2
+        },
+        "effective": {
+          "input": 0.8,
+          "output": 1.6
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "kimi-k2-instruct",
+      "name": "kimi-k2-instruct",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.5,
+          "output": 2.1
+        },
+        "effective": {
+          "input": 0.4,
+          "output": 1.68
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "kimi-k2-thinking",
+      "name": "kimi-k2-thinking",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.5,
+          "output": 2.1
+        },
+        "effective": {
+          "input": 0.4,
+          "output": 1.68
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "kimi-k2.5",
+      "name": "kimi-k2.5",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.514,
+          "output": 0.6939
+        },
+        "effective": {
+          "input": 0.4112,
+          "output": 0.55512
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "kimi-k2.6",
+      "name": "kimi-k2.6",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.9286,
+          "output": 3.85369
+        },
+        "effective": {
+          "input": 0.74288,
+          "output": 3.082952
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "kimi-k2.7-code",
+      "name": "kimi-k2.7-code",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.9286,
+          "output": 3.85369
+        },
+        "effective": {
+          "input": 0.74288,
+          "output": 3.082952
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "kimi-k2.7-code-highspeed",
+      "name": "kimi-k2.7-code-highspeed",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.8572,
+          "output": 7.70738
+        },
+        "effective": {
+          "input": 1.48576,
+          "output": 6.165904
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "kimi-k3",
+      "name": "kimi-k3",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 3,
+          "cached_input": 0.3,
+          "output": 15
+        },
+        "effective": {
+          "input": 2.4,
+          "cached_input": 0.24,
+          "output": 12
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "mimo-v2.5-pro",
+      "name": "mimo-v2.5-pro",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.4286,
+          "output": 0.8572
+        },
+        "effective": {
+          "input": 0.34288,
+          "output": 0.68576
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "minimax-m2.1",
+      "name": "minimax-m2.1",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.27,
+          "output": 1.08
+        },
+        "effective": {
+          "input": 0.216,
+          "output": 0.864
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "minimax-m2.5",
+      "name": "minimax-m2.5",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.3,
+          "output": 1.2
+        },
+        "effective": {
+          "input": 0.24,
+          "output": 0.96
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "minimax-m2.7",
+      "name": "minimax-m2.7",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.3,
+          "output": 1.2
+        },
+        "effective": {
+          "input": 0.24,
+          "output": 0.96
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "minimax-m3",
+      "name": "minimax-m3",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.3,
+          "output": 1.2
+        },
+        "effective": {
+          "input": 0.24,
+          "output": 0.96
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o1",
+      "name": "o1",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 15,
+          "cached_input": 7.5,
+          "output": 60
+        },
+        "effective": {
+          "input": 12,
+          "cached_input": 6,
+          "output": 48
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "o1-2024-12-17",
+      "name": "o1-2024-12-17",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 15,
+          "output": 60
+        },
+        "effective": {
+          "input": 12,
+          "output": 48
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o1-mini",
+      "name": "o1-mini",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "output": 3.52
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o1-mini-2024-09-12",
+      "name": "o1-mini-2024-09-12",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "output": 3.52
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o1-preview",
+      "name": "o1-preview",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 15,
+          "output": 60
+        },
+        "effective": {
+          "input": 12,
+          "output": 48
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o1-preview-2024-09-12",
+      "name": "o1-preview-2024-09-12",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 15,
+          "output": 60
+        },
+        "effective": {
+          "input": 12,
+          "output": 48
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o1-pro",
+      "name": "o1-pro",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 150,
+          "output": 600
+        },
+        "effective": {
+          "input": 120,
+          "output": 480
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o1-pro-2025-03-19",
+      "name": "o1-pro-2025-03-19",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 150,
+          "output": 600
+        },
+        "effective": {
+          "input": 120,
+          "output": 480
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3",
+      "name": "o3",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "output": 8
+        },
+        "effective": {
+          "input": 1.6,
+          "output": 6.4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-2025-04-16",
+      "name": "o3-2025-04-16",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "cached_input": 0.5,
+          "output": 8
+        },
+        "effective": {
+          "input": 1.6,
+          "cached_input": 0.4,
+          "output": 6.4
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "o3-deep-research",
+      "name": "o3-deep-research",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 10,
+          "output": 40
+        },
+        "effective": {
+          "input": 8,
+          "output": 32
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-deep-research-2025-06-26",
+      "name": "o3-deep-research-2025-06-26",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 10,
+          "output": 40
+        },
+        "effective": {
+          "input": 8,
+          "output": 32
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-mini",
+      "name": "o3-mini",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "cached_input": 0.55,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "cached_input": 0.44,
+          "output": 3.52
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "o3-mini-2025-01-31",
+      "name": "o3-mini-2025-01-31",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "output": 3.52
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-mini-2025-01-31-high",
+      "name": "o3-mini-2025-01-31-high",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "output": 3.52
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-mini-2025-01-31-low",
+      "name": "o3-mini-2025-01-31-low",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "output": 3.52
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-mini-2025-01-31-medium",
+      "name": "o3-mini-2025-01-31-medium",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "output": 3.52
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-mini-high",
+      "name": "o3-mini-high",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "output": 3.52
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-mini-low",
+      "name": "o3-mini-low",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "output": 3.52
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-mini-medium",
+      "name": "o3-mini-medium",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "output": 3.52
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-pro",
+      "name": "o3-pro",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 20,
+          "output": 80
+        },
+        "effective": {
+          "input": 16,
+          "output": 64
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o3-pro-2025-06-10",
+      "name": "o3-pro-2025-06-10",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 20,
+          "output": 80
+        },
+        "effective": {
+          "input": 16,
+          "output": 64
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o4-mini",
+      "name": "o4-mini",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "cached_input": 0.275,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "cached_input": 0.22,
+          "output": 3.52
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "o4-mini-2025-04-16",
+      "name": "o4-mini-2025-04-16",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.1,
+          "output": 4.4
+        },
+        "effective": {
+          "input": 0.88,
+          "output": 3.52
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o4-mini-deep-research",
+      "name": "o4-mini-deep-research",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "output": 8
+        },
+        "effective": {
+          "input": 1.6,
+          "output": 6.4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "o4-mini-deep-research-2025-06-26",
+      "name": "o4-mini-deep-research-2025-06-26",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "output": 8
+        },
+        "effective": {
+          "input": 1.6,
+          "output": 6.4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "omni-moderation-2024-09-26",
+      "name": "omni-moderation-2024-09-26",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.2,
+          "output": 0.2
+        },
+        "effective": {
+          "input": 0.16,
+          "output": 0.16
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "omni-moderation-latest",
+      "name": "omni-moderation-latest",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.2,
+          "output": 0.2
+        },
+        "effective": {
+          "input": 0.16,
+          "output": 0.16
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "qwen-turbo",
+      "name": "qwen-turbo",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.3,
+          "output": 3
+        },
+        "effective": {
+          "input": 0.24,
+          "output": 2.4
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "qwen3.6-flash",
+      "name": "qwen3.6-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.1714,
+          "output": 1.0284
+        },
+        "effective": {
+          "input": 0.13712,
+          "output": 0.82272
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "qwen3.6-plus",
+      "name": "qwen3.6-plus",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.2858,
+          "output": 1.7148
+        },
+        "effective": {
+          "input": 0.22864,
+          "output": 1.37184
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "qwen3.7-flash",
+      "name": "qwen3.7-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.028571,
+          "cached_input": 0.005714,
+          "explicit_cached_input": 0.002857,
+          "cache_write": 0.035714,
+          "output": 0.114286
+        },
+        "effective": {
+          "input": 0.0228568,
+          "cached_input": 0.0045712,
+          "explicit_cached_input": 0.0022856,
+          "cache_write": 0.0285712,
+          "output": 0.0914288
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "qwen3.7-max",
+      "name": "qwen3.7-max",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.7142,
+          "output": 5.1426
+        },
+        "effective": {
+          "input": 1.37136,
+          "output": 4.11408
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "qwen3.7-plus",
+      "name": "qwen3.7-plus",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.2858,
+          "output": 1.1432
+        },
+        "effective": {
+          "input": 0.22864,
+          "output": 0.91456
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "qwen3.8-2.4t-a95b",
+      "name": "qwen3.8-2.4t-a95b",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.714286,
+          "cached_input": 0.214286,
+          "explicit_cached_input": 0.142857,
+          "cache_write": 2.142857,
+          "output": 5.142857
+        },
+        "effective": {
+          "input": 1.3714288,
+          "cached_input": 0.1714288,
+          "explicit_cached_input": 0.1142856,
+          "cache_write": 1.7142856,
+          "output": 4.1142856
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "qwen3.8-27b",
+      "name": "qwen3.8-27b",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.428571,
+          "cached_input": 0.085714,
+          "explicit_cached_input": 0.042857,
+          "cache_write": 0.535714,
+          "output": 1.714286
+        },
+        "effective": {
+          "input": 0.3428568,
+          "cached_input": 0.0685712,
+          "explicit_cached_input": 0.0342856,
+          "cache_write": 0.4285712,
+          "output": 1.3714288
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "qwen3.8-flash",
+      "name": "qwen3.8-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.114286,
+          "cached_input": 0.014286,
+          "explicit_cached_input": 0.014286,
+          "cache_write": 0.178571,
+          "output": 0.385714
+        },
+        "effective": {
+          "input": 0.0914288,
+          "cached_input": 0.0114288,
+          "explicit_cached_input": 0.0114288,
+          "cache_write": 0.1428568,
+          "output": 0.3085712
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "qwen3.8-max",
+      "name": "qwen3.8-max",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.714286,
+          "cached_input": 0.214286,
+          "explicit_cached_input": 0.142857,
+          "cache_write": 2.142857,
+          "output": 5.142857
+        },
+        "effective": {
+          "input": 1.3714288,
+          "cached_input": 0.1714288,
+          "explicit_cached_input": 0.1142856,
+          "cache_write": 1.7142856,
+          "output": 4.1142856
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "official"
+    },
+    {
+      "id": "qwen3.8-max-0902",
+      "name": "qwen3.8-max-0902",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 1.714286,
+          "cached_input": 0.214286,
+          "explicit_cached_input": 0.142857,
+          "cache_write": 2.142857,
+          "output": 5.142857
+        },
+        "effective": {
+          "input": 1.3714288,
+          "cached_input": 0.1714288,
+          "explicit_cached_input": 0.1142856,
+          "cache_write": 1.7142856,
+          "output": 4.1142856
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "step-3.7-flash",
+      "name": "step-3.7-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.1928,
+          "output": 1.1568
+        },
+        "effective": {
+          "input": 0.15424,
+          "output": 0.92544
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "text-embedding-3-large",
+      "name": "text-embedding-3-large",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.13,
+          "output": 0.13
+        },
+        "effective": {
+          "input": 0.104,
+          "output": 0.104
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "text-embedding-3-small",
+      "name": "text-embedding-3-small",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.02,
+          "output": 0.02
+        },
+        "effective": {
+          "input": 0.016,
+          "output": 0.016
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "text-embedding-ada-002",
+      "name": "text-embedding-ada-002",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.1,
+          "output": 0.1
+        },
+        "effective": {
+          "input": 0.08,
+          "output": 0.08
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "text-moderation-latest",
+      "name": "text-moderation-latest",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.2,
+          "output": 0.2
+        },
+        "effective": {
+          "input": 0.16,
+          "output": 0.16
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    },
+    {
+      "id": "text-moderation-stable",
+      "name": "text-moderation-stable",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.2,
+          "output": 0.2
+        },
+        "effective": {
+          "input": 0.16,
+          "output": 0.16
+        }
+      },
+      "billing_type": "model_ratio",
+      "origin": null
+    }
+  ]
+}

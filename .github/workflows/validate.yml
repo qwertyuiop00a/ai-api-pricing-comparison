@@ -6,12 +6,16 @@ on:
   pull_request:
 
 jobs:
-  links-and-data:
+  guard:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Attribution and prompt data check
-        run: python3 tools/check_links.py
+      - name: Attribution and pricing data check
+        run: python tools/check_links.py
+      - name: Smoke-test the calculator
+        run: |
+          python examples/cost_calculator.py image --model gpt-image-2.5-ext --resolution 1K --count 100
+          python examples/cost_calculator.py tokens --model gpt-5.5 --input-tokens 1000000 --output-tokens 100000

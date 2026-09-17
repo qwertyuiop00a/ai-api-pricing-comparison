@@ -1,0 +1,33 @@
+name: refresh-pricing
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh snapshot and README tables
+        run: python tools/snapshot.py
+      - name: Validate
+        run: python tools/check_links.py
+      - name: Commit when the snapshot moved
+        run: |
+          if git diff --quiet; then
+            echo "no pricing change today"
+            exit 0
+          fi
+          git config user.name "pricing-bot"
+          git config user.email "pricing-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: daily pricing snapshot $(date -u +%Y-%m-%d)"
+          git push
