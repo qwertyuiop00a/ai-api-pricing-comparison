@@ -1,13 +1,13 @@
 {
   "source": "https://apimart.ai/en/pricing",
   "method": "React Server Component payload of the public pricing page (no API key required)",
-  "extracted_at": "2026-09-17T07:40:44Z",
-  "model_count": 303,
+  "extracted_at": "2026-09-18T06:34:48Z",
+  "model_count": 305,
   "specification_counts": {
     "image": 41,
-    "second": 48,
+    "second": 49,
     "times": 6,
-    "token": 208
+    "token": 209
   },
   "models": [
     {
@@ -1029,7 +1029,7 @@
     },
     {
       "id": "seedream-4-0",
-      "name": "seedance-4-0",
+      "name": "seedream-4-0",
       "alias": null,
       "specification": "image",
       "unit": "usd_per_image",
@@ -1042,7 +1042,7 @@
     },
     {
       "id": "seedream-4-5",
-      "name": "seedance-4-5",
+      "name": "seedream-4-5",
       "alias": null,
       "specification": "image",
       "unit": "usd_per_image",
@@ -1169,6 +1169,31 @@
         "default": {
           "list": 0.1,
           "effective": 0.08
+        }
+      }
+    },
+    {
+      "id": "MiniMax-H3-Max",
+      "name": "MiniMax-H3-Max",
+      "alias": null,
+      "specification": "second",
+      "unit": "usd_per_second",
+      "prices": {
+        "default": {
+          "list": 0.0714,
+          "effective": 0.05712
+        },
+        "1080P": {
+          "list": 0.16,
+          "effective": 0.128
+        },
+        "480P": {
+          "list": 0.0471,
+          "effective": 0.03768
+        },
+        "768P": {
+          "list": 0.0714,
+          "effective": 0.05712
         }
       }
     },
@@ -3901,6 +3926,27 @@
       },
       "billing_type": "tiered_token",
       "origin": "official"
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "name": "deepseek-v4.1-flash",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.285714,
+          "cached_input": 0.028571,
+          "output": 1.142857
+        },
+        "effective": {
+          "input": 0.2285712,
+          "cached_input": 0.0228568,
+          "output": 0.9142856
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
     },
     {
       "id": "gemini-2.5-flash",
