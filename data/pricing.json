@@ -1,7 +1,7 @@
 {
   "source": "https://apimart.ai/en/pricing",
   "method": "React Server Component payload of the public pricing page (no API key required)",
-  "extracted_at": "2026-09-18T06:34:48Z",
+  "extracted_at": "2026-09-19T06:33:17Z",
   "model_count": 305,
   "specification_counts": {
     "image": 41,
@@ -719,15 +719,15 @@
           "effective": 0.0085
         },
         "1K": {
-          "list": 0.010625,
+          "list": 0.2109,
           "effective": 0.0085
         },
         "2K": {
-          "list": 0.0175,
+          "list": 0.4283,
           "effective": 0.014
         },
         "4K": {
-          "list": 0.02625,
+          "list": 0.7117,
           "effective": 0.021
         }
       }
@@ -874,7 +874,7 @@
       "unit": "usd_per_image",
       "prices": {
         "default": {
-          "list": 0.01875,
+          "list": 0.06,
           "effective": 0.015
         },
         "region-edit": {
