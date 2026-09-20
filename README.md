@@ -1,12 +1,29 @@
 # AI API Pricing Comparison — Per-Image, Per-Second and Per-Million-Token Costs
 
+<!-- conv-kit:v1 -->
+
+<p align="center">
+  <img src="assets/badges/price.svg" alt="observed unit price"> <img src="assets/badges/billing.svg" alt="billing model"> <img src="assets/badges/compat.svg" alt="OpenAI-compatible endpoint">
+</p>
+
+> **image2.5 from $0.0085 per 1K image** · Seedance 2.5 from $0.0961/sec · cached LLM input from $0.40/M — one OpenAI-compatible endpoint at `https://api.apimart.ai/v1`, no monthly plan required. *(observed 2026-09-17)*
+
+**[Get an API key](https://go.apimart.ai/k-c1f263)** · **[Live pricing](https://go.apimart.ai/k-748909)** · **[Model page](https://go.apimart.ai/k-118dd7)**
+
+**Why teams route through APIMart**
+
+- **One key, entire catalog.** The same `https://api.apimart.ai/v1` base URL and `Authorization` header reach the whole catalog behind one key and 300+ other image, video and language models — switch the `model` field, not your client.
+- **$1 minimum, pay as you go.** No subscription and no prepaid plan to size up front: top up from $1 and spend it on calls. There is no free quota to burn through first, so the price in this table is the price you pay.
+- **The charge comes back in the response.** Every call reports the amount billed (`cost` / `credits_cost`), so a spend number is read per call instead of guessed at month end.
+- **Async by design.** Submit, take the `task_id`, poll `GET /v1/tasks/{id}` — batching and retries are ordinary queue work, not a bespoke integration.
+
+<!-- /conv-kit:v1 -->
+
 A machine-checkable pricing snapshot for **image**, **video** and **text** API routes, rebuilt every day from the
 public pricing payload. Use it to answer the only question that matters before a batch job runs: *what will this
 cost, and which route gives the same output for less?*
 
-<!-- snapshot:date -->2026-09-20<!-- /snapshot:date -->
-
-**Attributed entry points:** [Browse the model catalog](https://go.apimart.ai/k-118dd7) · [Current pricing](https://go.apimart.ai/k-748909) · [Get an API key](https://go.apimart.ai/k-c1f263)
+<!-- snapshot:date -->2026-09-17<!-- /snapshot:date -->
 
 ## What this repository is (and is not)
 
@@ -22,7 +39,7 @@ cost, and which route gives the same output for less?*
 | Source page | `https://apimart.ai/en/pricing` |
 | Method | React Server Component payload of the public page — **no API key required** |
 | Extractor | [`tools/snapshot.py`](tools/snapshot.py) (fetch → parse → write `data/pricing.json` → refresh the tables below) |
-| Snapshot date | <!-- snapshot:date -->2026-09-20<!-- /snapshot:date --> |
+| Snapshot date | <!-- snapshot:date -->2026-09-17<!-- /snapshot:date --> |
 | Models captured | 304 across `image`, `token`, per-second and per-call billing units |
 | CI | [`.github/workflows/refresh-pricing.yml`](.github/workflows/refresh-pricing.yml) runs daily at 06:17 UTC and commits only when something moved |
 
@@ -49,6 +66,20 @@ Effective prices after the default group discount; list prices are in [`data/pri
 | `seedream-4-0` — Seedance 4.0 image | $0.0195 | $0.0195 | $0.0195 | Seedream family image route |
 | `seedream-4-5` — Seedance 4.5 image | $0.026 | $0.026 | $0.026 | Seedream family image route |
 | `gpt-image-2` — GPT-Image-2 (ext) | $0.0085 | $0.014 | $0.021 | previous-generation per-image route |
+
+<!-- conv-kit:v1:scale -->
+### What that costs at scale
+
+| Workload | Cost at the observed rates |
+| --- | --- |
+| 1,000 GPT Image 2.5 renders (1K) | $8.50 |
+| 10 minutes of Seedance 2.5 at 480P (600s) | $57.66 |
+| 1M cached LLM input tokens | from $0.40 |
+
+Linear at the observed per-unit rate, no volume discount assumed. Snapshot 2026-09-17; re-check the live table before committing a budget.
+<!-- /conv-kit:v1:scale -->
+
+
 <!-- pricing:image:end -->
 
 ## Video generation pricing (per second of output)
@@ -139,6 +170,19 @@ python examples/cost_calculator.py list --spec token --grep claude
 3. **Sum delivered artefacts, not submissions** — retries without an `Idempotency-Key` bill twice, and failed tasks
    should not appear as image line items.
 
+<!-- conv-kit:v1:fix -->
+## First-call troubleshooting
+
+| Symptom | Likely cause | Fix |
+| --- | --- | --- |
+| `401` / `invalid api key` | key missing, truncated, or a stray newline pasted into the header | Re-copy it from the console; the header is `Authorization: Bearer $APIMART_API_KEY` |
+| balance / credit error | the account has no balance | Top up from $1 in the console — there is no free quota to fall back on |
+| `429` | concurrent requests on one key | Back off, then retry the same request with the same `Idempotency-Key` |
+| `400` / model not found | wrong route for the id: the per-unit alias needs its `version`, the official id must not send one | Copy the exact `model` value from the route table above |
+| task ends `failed` | prompt rejected by the filter, or a reference image URL expired | Re-submit with a **new** `Idempotency-Key` and re-host the reference image |
+| result URL stops working | result links expire | Download the file as soon as the task reports `completed` |
+<!-- /conv-kit:v1:fix -->
+
 ## FAQ
 
 **What is the cheapest way to generate one image?**
@@ -173,6 +217,12 @@ For per-image routes, no: the unit price covers the delivered image. For token-b
 - `image2.5 api pricing`
 - `ai api gateway`
 
+<!-- conv-kit:v1:cta -->
+---
+
+**Start with $1.** [Get an API key](https://go.apimart.ai/k-c1f263) → [check live pricing](https://go.apimart.ai/k-748909) → [open the whole catalog behind one key in the model library](https://go.apimart.ai/k-118dd7). The first call is three steps: submit, poll `task_id`, read the charged amount off the response.
+<!-- /conv-kit:v1:cta -->
+
 ## Attributed links (how this repository is measured)
 
 | Purpose | Attributed link | Target |
@@ -189,7 +239,7 @@ attributed. Hand-made tracking parameters are rejected by CI (`tools/check_links
 APIMart is the service whose public pricing page is the data source for this snapshot; this repository is published to
 document it, not to claim official status. Prices, model names and limits belong to their respective owners, and the
 `ext` / relayed routes are third-party relay endpoints rather than first-party vendor endpoints. Observation date:
-<!-- snapshot:date -->2026-09-20<!-- /snapshot:date -->. Verify with one paid request before scaling a batch.
+<!-- snapshot:date -->2026-09-17<!-- /snapshot:date -->. Verify with one paid request before scaling a batch.
 
 ## Repository map
 
