@@ -1,7 +1,7 @@
 {
   "source": "https://apimart.ai/en/pricing",
   "method": "React Server Component payload of the public pricing page (no API key required)",
-  "extracted_at": "2026-09-19T06:33:17Z",
+  "extracted_at": "2026-09-20T06:33:11Z",
   "model_count": 305,
   "specification_counts": {
     "image": 41,
