@@ -1,13 +1,13 @@
 {
   "source": "https://apimart.ai/en/pricing",
   "method": "React Server Component payload of the public pricing page (no API key required)",
-  "extracted_at": "2026-09-20T06:33:11Z",
-  "model_count": 305,
+  "extracted_at": "2026-09-21T06:37:51Z",
+  "model_count": 282,
   "specification_counts": {
-    "image": 41,
+    "image": 40,
     "second": 49,
     "times": 6,
-    "token": 209
+    "token": 187
   },
   "models": [
     {
@@ -388,19 +388,6 @@
         "4K": {
           "list": 0.05,
           "effective": 0.04
-        }
-      }
-    },
-    {
-      "id": "dall-e-2",
-      "name": "dall-e-2",
-      "alias": null,
-      "specification": "image",
-      "unit": "usd_per_image",
-      "prices": {
-        "default": {
-          "list": 0.02,
-          "effective": 0.016
         }
       }
     },
@@ -3216,25 +3203,6 @@
       "origin": "manual"
     },
     {
-      "id": "gpt-4",
-      "name": "GPT-4",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 30,
-          "output": 60
-        },
-        "effective": {
-          "input": 24,
-          "output": 48
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
       "id": "gpt-4o",
       "name": "GPT-4o",
       "alias": null,
@@ -3675,44 +3643,6 @@
       },
       "billing_type": "tiered_token",
       "origin": "manual"
-    },
-    {
-      "id": "computer-use-preview",
-      "name": "computer-use-preview",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 3,
-          "output": 12
-        },
-        "effective": {
-          "input": 2.4,
-          "output": 9.6
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "computer-use-preview-2025-03-11",
-      "name": "computer-use-preview-2025-03-11",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 3,
-          "output": 12
-        },
-        "effective": {
-          "input": 2.4,
-          "output": 9.6
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
     },
     {
       "id": "davinci-002",
@@ -4586,25 +4516,6 @@
       "origin": null
     },
     {
-      "id": "gpt-3.5-turbo-instruct-0914",
-      "name": "gpt-3.5-turbo-instruct-0914",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 1.5,
-          "output": 1.995
-        },
-        "effective": {
-          "input": 1.2,
-          "output": 1.596
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
       "id": "gpt-4-0125-preview",
       "name": "gpt-4-0125-preview",
       "alias": null,
@@ -4618,25 +4529,6 @@
         "effective": {
           "input": 8,
           "output": 16
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-4-0613",
-      "name": "gpt-4-0613",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 30,
-          "output": 60
-        },
-        "effective": {
-          "input": 24,
-          "output": 48
         }
       },
       "billing_type": "model_ratio",
@@ -4694,63 +4586,6 @@
         "effective": {
           "input": 2,
           "output": 8
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-4-turbo",
-      "name": "gpt-4-turbo",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 10,
-          "output": 30
-        },
-        "effective": {
-          "input": 8,
-          "output": 24
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-4-turbo-2024-04-09",
-      "name": "gpt-4-turbo-2024-04-09",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 10,
-          "output": 30
-        },
-        "effective": {
-          "input": 8,
-          "output": 24
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-4-turbo-preview",
-      "name": "gpt-4-turbo-preview",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 10,
-          "output": 30
-        },
-        "effective": {
-          "input": 8,
-          "output": 24
         }
       },
       "billing_type": "model_ratio",
@@ -4953,25 +4788,6 @@
       "origin": "manual"
     },
     {
-      "id": "gpt-4o-2024-08-06",
-      "name": "gpt-4o-2024-08-06",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 2.5,
-          "output": 10
-        },
-        "effective": {
-          "input": 2,
-          "output": 8
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
       "id": "gpt-4o-2024-11-20",
       "name": "gpt-4o-2024-11-20",
       "alias": null,
@@ -4985,25 +4801,6 @@
         "effective": {
           "input": 2,
           "output": 8
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-4o-mini-2024-07-18",
-      "name": "gpt-4o-mini-2024-07-18",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 0.15,
-          "output": 0.6
-        },
-        "effective": {
-          "input": 0.12,
-          "output": 0.48
         }
       },
       "billing_type": "model_ratio",
@@ -5042,44 +4839,6 @@
         "effective": {
           "input": 0.48,
           "output": 1.92
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-4o-mini-search-preview",
-      "name": "gpt-4o-mini-search-preview",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 0.15,
-          "output": 0.6
-        },
-        "effective": {
-          "input": 0.12,
-          "output": 0.48
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-4o-mini-search-preview-2025-03-11",
-      "name": "gpt-4o-mini-search-preview-2025-03-11",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 0.15,
-          "output": 0.6
-        },
-        "effective": {
-          "input": 0.12,
-          "output": 0.48
         }
       },
       "billing_type": "model_ratio",
@@ -5162,84 +4921,8 @@
       "origin": null
     },
     {
-      "id": "gpt-4o-realtime-preview-2025-06-03",
-      "name": "gpt-4o-realtime-preview-2025-06-03",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 5,
-          "output": 20
-        },
-        "effective": {
-          "input": 4,
-          "output": 16
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-4o-search-preview",
-      "name": "gpt-4o-search-preview",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 2.5,
-          "output": 10
-        },
-        "effective": {
-          "input": 2,
-          "output": 8
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-4o-search-preview-2025-03-11",
-      "name": "gpt-4o-search-preview-2025-03-11",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 2.5,
-          "output": 10
-        },
-        "effective": {
-          "input": 2,
-          "output": 8
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
       "id": "gpt-4o-transcribe",
       "name": "gpt-4o-transcribe",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 2.5,
-          "output": 10
-        },
-        "effective": {
-          "input": 2,
-          "output": 8
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-4o-transcribe-diarize",
-      "name": "gpt-4o-transcribe-diarize",
       "alias": null,
       "specification": "token",
       "unit": "usd_per_million_tokens",
@@ -5807,25 +5490,6 @@
       "origin": "manual"
     },
     {
-      "id": "gpt-5.5-pro",
-      "name": "gpt-5.5-pro",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 30,
-          "output": 180
-        },
-        "effective": {
-          "input": 24,
-          "output": 144
-        }
-      },
-      "billing_type": "tiered_token",
-      "origin": "manual"
-    },
-    {
       "id": "gpt-5.6-luna",
       "name": "gpt-5.6-luna",
       "alias": null,
@@ -5916,82 +5580,6 @@
       },
       "billing_type": "tiered_token",
       "origin": "manual"
-    },
-    {
-      "id": "gpt-realtime",
-      "name": "gpt-realtime",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 4,
-          "output": 16
-        },
-        "effective": {
-          "input": 3.2,
-          "output": 12.8
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-realtime-2025-08-28",
-      "name": "gpt-realtime-2025-08-28",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 4,
-          "output": 16
-        },
-        "effective": {
-          "input": 3.2,
-          "output": 12.8
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-realtime-mini",
-      "name": "gpt-realtime-mini",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 0.6,
-          "output": 2.4
-        },
-        "effective": {
-          "input": 0.48,
-          "output": 1.92
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "gpt-realtime-mini-2025-10-06",
-      "name": "gpt-realtime-mini-2025-10-06",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 0.6,
-          "output": 2.4
-        },
-        "effective": {
-          "input": 0.48,
-          "output": 1.92
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
     },
     {
       "id": "grok-4.20-0309-non-reasoning",
@@ -6855,25 +6443,6 @@
         "effective": {
           "input": 1.6,
           "output": 6.4
-        }
-      },
-      "billing_type": "model_ratio",
-      "origin": null
-    },
-    {
-      "id": "omni-moderation-2024-09-26",
-      "name": "omni-moderation-2024-09-26",
-      "alias": null,
-      "specification": "token",
-      "unit": "usd_per_million_tokens",
-      "prices": {
-        "list": {
-          "input": 0.2,
-          "output": 0.2
-        },
-        "effective": {
-          "input": 0.16,
-          "output": 0.16
         }
       },
       "billing_type": "model_ratio",

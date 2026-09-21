@@ -23,7 +23,7 @@ A machine-checkable pricing snapshot for **image**, **video** and **text** API r
 public pricing payload. Use it to answer the only question that matters before a batch job runs: *what will this
 cost, and which route gives the same output for less?*
 
-<!-- snapshot:date -->2026-09-17<!-- /snapshot:date -->
+<!-- snapshot:date -->2026-09-21<!-- /snapshot:date -->
 
 ## What this repository is (and is not)
 
@@ -39,7 +39,7 @@ cost, and which route gives the same output for less?*
 | Source page | `https://apimart.ai/en/pricing` |
 | Method | React Server Component payload of the public page — **no API key required** |
 | Extractor | [`tools/snapshot.py`](tools/snapshot.py) (fetch → parse → write `data/pricing.json` → refresh the tables below) |
-| Snapshot date | <!-- snapshot:date -->2026-09-17<!-- /snapshot:date --> |
+| Snapshot date | <!-- snapshot:date -->2026-09-21<!-- /snapshot:date --> |
 | Models captured | 304 across `image`, `token`, per-second and per-call billing units |
 | CI | [`.github/workflows/refresh-pricing.yml`](.github/workflows/refresh-pricing.yml) runs daily at 06:17 UTC and commits only when something moved |
 
@@ -66,20 +66,6 @@ Effective prices after the default group discount; list prices are in [`data/pri
 | `seedream-4-0` — Seedance 4.0 image | $0.0195 | $0.0195 | $0.0195 | Seedream family image route |
 | `seedream-4-5` — Seedance 4.5 image | $0.026 | $0.026 | $0.026 | Seedream family image route |
 | `gpt-image-2` — GPT-Image-2 (ext) | $0.0085 | $0.014 | $0.021 | previous-generation per-image route |
-
-<!-- conv-kit:v1:scale -->
-### What that costs at scale
-
-| Workload | Cost at the observed rates |
-| --- | --- |
-| 1,000 GPT Image 2.5 renders (1K) | $8.50 |
-| 10 minutes of Seedance 2.5 at 480P (600s) | $57.66 |
-| 1M cached LLM input tokens | from $0.40 |
-
-Linear at the observed per-unit rate, no volume discount assumed. Snapshot 2026-09-17; re-check the live table before committing a budget.
-<!-- /conv-kit:v1:scale -->
-
-
 <!-- pricing:image:end -->
 
 ## Video generation pricing (per second of output)
@@ -105,7 +91,6 @@ Seedance routes — check the `*-input` keys in `data/pricing.json` before budge
 | Model id | Input / 1M | Cached input / 1M | Output / 1M | Notes |
 | --- | --- | --- | --- | --- |
 | `gpt-5.5` — GPT-5.5 | $4.00 | $0.4 | $24.00 | flagship reasoning/chat tier |
-| `gpt-5.5-pro` — GPT-5.5 Pro | $24.00 | — | $144.00 | highest-tier GPT-5.5 |
 | `gpt-5.4` — GPT-5.4 | $2.00 | $0.2 | $12.00 | previous flagship tier |
 | `gpt-5.1` — GPT-5.1 | $1.00 | $0.1 | $8.00 | mid-tier GPT-5 line |
 | `gpt-5-mini` — GPT-5 mini | $0.2 | $0.02 | $1.60 | cheap GPT-5 tier |
@@ -239,7 +224,7 @@ attributed. Hand-made tracking parameters are rejected by CI (`tools/check_links
 APIMart is the service whose public pricing page is the data source for this snapshot; this repository is published to
 document it, not to claim official status. Prices, model names and limits belong to their respective owners, and the
 `ext` / relayed routes are third-party relay endpoints rather than first-party vendor endpoints. Observation date:
-<!-- snapshot:date -->2026-09-17<!-- /snapshot:date -->. Verify with one paid request before scaling a batch.
+<!-- snapshot:date -->2026-09-21<!-- /snapshot:date -->. Verify with one paid request before scaling a batch.
 
 ## Repository map
 
