@@ -23,7 +23,7 @@ A machine-checkable pricing snapshot for **image**, **video** and **text** API r
 public pricing payload. Use it to answer the only question that matters before a batch job runs: *what will this
 cost, and which route gives the same output for less?*
 
-<!-- snapshot:date -->2026-09-22<!-- /snapshot:date -->
+<!-- snapshot:date -->2026-09-23<!-- /snapshot:date -->
 
 ## What this repository is (and is not)
 
@@ -39,7 +39,7 @@ cost, and which route gives the same output for less?*
 | Source page | `https://apimart.ai/en/pricing` |
 | Method | React Server Component payload of the public page — **no API key required** |
 | Extractor | [`tools/snapshot.py`](tools/snapshot.py) (fetch → parse → write `data/pricing.json` → refresh the tables below) |
-| Snapshot date | <!-- snapshot:date -->2026-09-22<!-- /snapshot:date --> |
+| Snapshot date | <!-- snapshot:date -->2026-09-23<!-- /snapshot:date --> |
 | Models captured | 304 across `image`, `token`, per-second and per-call billing units |
 | CI | [`.github/workflows/refresh-pricing.yml`](.github/workflows/refresh-pricing.yml) runs daily at 06:17 UTC and commits only when something moved |
 
@@ -224,7 +224,7 @@ attributed. Hand-made tracking parameters are rejected by CI (`tools/check_links
 APIMart is the service whose public pricing page is the data source for this snapshot; this repository is published to
 document it, not to claim official status. Prices, model names and limits belong to their respective owners, and the
 `ext` / relayed routes are third-party relay endpoints rather than first-party vendor endpoints. Observation date:
-<!-- snapshot:date -->2026-09-22<!-- /snapshot:date -->. Verify with one paid request before scaling a batch.
+<!-- snapshot:date -->2026-09-23<!-- /snapshot:date -->. Verify with one paid request before scaling a batch.
 
 ## Repository map
 
