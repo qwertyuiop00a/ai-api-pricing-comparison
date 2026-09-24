@@ -1,13 +1,13 @@
 {
   "source": "https://apimart.ai/en/pricing",
   "method": "React Server Component payload of the public pricing page (no API key required)",
-  "extracted_at": "2026-09-23T06:35:45Z",
-  "model_count": 283,
+  "extracted_at": "2026-09-24T06:35:49Z",
+  "model_count": 286,
   "specification_counts": {
     "image": 40,
     "second": 49,
     "times": 6,
-    "token": 188
+    "token": 191
   },
   "models": [
     {
@@ -3532,6 +3532,33 @@
       "origin": "manual"
     },
     {
+      "id": "claude-opus-5-5",
+      "name": "claude-opus-5-5",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 4,
+          "cached_input": 0.2,
+          "cache_write": 0,
+          "cache_write_5m": 5,
+          "cache_write_1h": 8,
+          "output": 20
+        },
+        "effective": {
+          "input": 3.2,
+          "cached_input": 0.16,
+          "cache_write": 0,
+          "cache_write_5m": 4,
+          "cache_write_1h": 6.4,
+          "output": 16
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
       "id": "claude-sonnet-4-5-20250929",
       "name": "claude-sonnet-4-5-20250929",
       "alias": null,
@@ -5576,6 +5603,52 @@
           "cached_input": 0.8,
           "cache_write": 10,
           "output": 40
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "gpt-6-luna",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 0.1,
+          "cached_input": 0.01,
+          "cache_write": 0.125,
+          "output": 0.5
+        },
+        "effective": {
+          "input": 0.08,
+          "cached_input": 0.008,
+          "cache_write": 0.1,
+          "output": 0.4
+        }
+      },
+      "billing_type": "tiered_token",
+      "origin": "manual"
+    },
+    {
+      "id": "gpt-6-sol",
+      "name": "gpt-6-sol",
+      "alias": null,
+      "specification": "token",
+      "unit": "usd_per_million_tokens",
+      "prices": {
+        "list": {
+          "input": 2,
+          "cached_input": 0.2,
+          "cache_write": 2.5,
+          "output": 10
+        },
+        "effective": {
+          "input": 1.6,
+          "cached_input": 0.16,
+          "cache_write": 2,
+          "output": 8
         }
       },
       "billing_type": "tiered_token",
