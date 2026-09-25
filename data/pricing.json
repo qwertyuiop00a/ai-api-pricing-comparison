@@ -1,10 +1,10 @@
 {
   "source": "https://apimart.ai/en/pricing",
   "method": "React Server Component payload of the public pricing page (no API key required)",
-  "extracted_at": "2026-09-24T06:35:49Z",
-  "model_count": 286,
+  "extracted_at": "2026-09-25T06:36:19Z",
+  "model_count": 287,
   "specification_counts": {
-    "image": 40,
+    "image": 41,
     "second": 49,
     "times": 6,
     "token": 191
@@ -1037,6 +1037,19 @@
         "default": {
           "list": 0.0325,
           "effective": 0.026
+        }
+      }
+    },
+    {
+      "id": "seedream-5-0-flash",
+      "name": "seedream-5-0-flash",
+      "alias": null,
+      "specification": "image",
+      "unit": "usd_per_image",
+      "prices": {
+        "default": {
+          "list": 0.017143,
+          "effective": 0.0137144
         }
       }
     },
